@@ -1,6 +1,6 @@
 import requests
 import streamlit as st
-#from streamlit_lottie import st_lottie
+from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 from streamlit_gsheets import GSheetsConnection
 import plotly.graph_objects as go
@@ -30,9 +30,9 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-'''# ---- LOAD ASSETS ----
+# ---- LOAD ASSETS ----
 lottie_stock = load_lottieurl(
-    "https://lottie.host/befbdacd-2c16-4004-b618-52438922978b/TZkcNE0Uvq.json")'''
+    "https://lottie.host/befbdacd-2c16-4004-b618-52438922978b/TZkcNE0Uvq.json")
 
 # ---- HEADER SECTION ----
 with st.container():
