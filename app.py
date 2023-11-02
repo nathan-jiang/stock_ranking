@@ -66,22 +66,6 @@ sectors = [
     "Technology", "Telecommunications", "Utilities"
 ]
 
-# ---- DATABASE ----
-url = "https://docs.google.com/spreadsheets/d/1O5KK8MmtcgqMb5JDhteJnNv1V1TK2g-S/edit?usp=sharing&ouid=111423075815827425613&rtpof=true&sd=true"
-
-conn = st.experimental_connection("gsheets", type=GSheetsConnection)
-gids = [
-    "1562282668", "1959345642", "115667456", "1005519215", "2033455487",
-    "1742792200", "1430289285", "541347383", "380115346", "1064847660",
-    "1802728380", "1570862229", "1853500544", "847190795", "1388604986",
-    "207281185", "2082774840", "1643038485", "1130388712", "917664002",
-    "1215648318", "2067674014", "58074621", "1727814222", "1573215157",
-    "131247144", "498573250", "74144075", "193239138", "216725087",
-    "1602549648", "1020383692", "145630480", "841059173", "1923579321",
-    "1447327772", "39501575", "1799552135", "505469783", "1412147434",
-    "893783705", "483753482", "1161015261"
-]
-
 ranking_lists = pd.ExcelFile('combined_ranking_new_method.xlsx')
 for date in dates:
     globals()['ranking_%s' % date] = pd.read_excel(ranking_lists,
