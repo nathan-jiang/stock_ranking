@@ -1,4 +1,3 @@
-!pip install -r requirements.txt
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
@@ -9,6 +8,10 @@ import calendar
 import datetime
 import pandas as pd
 import calendar
+import seaborn as sns
+
+sns.set()
+import matplotlib.pyplot as plt
 
 # find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="Ranking Algo on Stocks",
@@ -30,7 +33,6 @@ def local_css(file_name):
 
 
 local_css("style/style.css")
-
 # ---- LOAD ASSETS ----
 lottie_stock = load_lottieurl(
     "https://lottie.host/befbdacd-2c16-4004-b618-52438922978b/TZkcNE0Uvq.json")
@@ -66,8 +68,12 @@ sectors = [
     "Energy", "Financials", "Health Care", "Industrials", "Real Estate",
     "Technology", "Telecommunications", "Utilities"
 ]
+no_of_stocks = ['top 100', 'top 200', 'top 300', 'top 400', 'top 500']
 
-ranking_lists = pd.ExcelFile('combined_ranking_new_method.xlsx')
+xlsx_url = 'https://github.com/nathan-jiang/stock_ranking_web_app/blob/main/combined_ranking_new_method.xlsx'
+#ranking_lists = pd.ExcelFile('combined_ranking_new_method.xlsx')
+ranking_lists = pd.ExcelFile(xlsx_url)
+
 for date in dates:
     globals()['ranking_%s' % date] = pd.read_excel(ranking_lists,
                                                    date,
@@ -78,50 +84,96 @@ with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header("Ranking Generator")
-        # ---- INPUT & SAVE PERIODS ----
-        with st.form("entry_form", clear_on_submit=True):
-            col1, col2, col3 = st.columns(3)
-            #col1.selectbox("Select Month:", months, key="month")
-            #col2.selectbox("Select Year:", years, key="year")
-            #col3.selectbox("Select Sector:", sectors, key="sector")
-            month_selected = col1.selectbox("Select Month:", months)
-            year_selected = col2.selectbox("Select Year:", years)
-            sector_selected = col3.selectbox("Select Sector:", sectors)
-            submitted = st.form_submit_button("Submit")
-            if submitted:
-                st.write(
-                    f"Ranking for {month_selected}, {year_selected}, {sector_selected}"
-                )
-                if sector_selected == "All":
-                    df = st.dataframe(
-                        globals()['ranking_%s%s' %
-                                  (year_selected,
-                                   months_dict[month_selected])], )
-                else:
-                    df = st.dataframe(
-                        globals()['ranking_%s%s' %
-                                  (year_selected, months_dict[month_selected])]
-                        [globals()['ranking_%s%s' %
+        # ---- NAVIGATION MENU ----
+        selected = option_menu(
+            menu_title=None,
+            options=["Ranking Generator", "Data Visualization"],
+            icons=["list-ol",
+                   "pie-chart-fill"],  #https://icons.getbootstrap.com/
+            orientation="horizontal",
+        )
+        if selected == "Ranking Generator":
+            st.header("Ranking Generator")
+            # ---- INPUT & SAVE PERIODS ----
+            with st.form("entry_form", clear_on_submit=True):
+                col1, col2, col3 = st.columns(3)
+                #col1.selectbox("Select Month:", months, key="month")
+                #col2.selectbox("Select Year:", years, key="year")
+                #col3.selectbox("Select Sector:", sectors, key="sector")
+                month_selected = col1.selectbox("Select Month:", months)
+                year_selected = col2.selectbox("Select Year:", years)
+                sector_selected = col3.selectbox("Select Sector:", sectors)
+                submitted = st.form_submit_button("Submit")
+                if submitted:
+                    st.write(
+                        f"Ranking for {month_selected}, {year_selected}, {sector_selected}"
+                    )
+                    if sector_selected == "All":
+                        df = st.dataframe(
+                            globals()['ranking_%s%s' %
+                                      (year_selected,
+                                       months_dict[month_selected])])
+                    else:
+                        df = st.dataframe(
+                            globals()['ranking_%s%s' %
+                                      (year_selected,
+                                       months_dict[month_selected])]
+                            [globals()['ranking_%s%s' %
+                                       (year_selected,
+                                        months_dict[month_selected])]
+                             ['ICB Industry name'] == sector_selected])
+                "---"
+                with st.expander("Comment"):
+                    comment = st.text_area(
+                        "", placeholder="Enter a comment here ...")
+                "---"
+                submitted = st.form_submit_button("Save Data")
+                if submitted:
+                    period = str(st.session_state["year"]) + "_" + str(
+                        st.session_state["month"])
+                    sector = str(st.session_state["sector"])
+                    #data = conn.read(spreadsheet=url, worksheet=gids[0])
+                    #st.dataframe(data)
+
+                    # TODO: Insert values into database
+                    #st.write(f"sectors: {sectors}")
+                    st.success("Data saved!")
+        if selected == "Data Visualization":
+            st.header("Data Visualization")
+            with st.form("saved_no_of_stocks"):
+                col1, col2, col3 = st.columns(3)
+                month_selected = col1.selectbox("Select Month:", months)
+                year_selected = col2.selectbox("Select Year:", years)
+                number_selected = col3.selectbox("Select Number of Stocks",
+                                                 no_of_stocks)
+                submitted = st.form_submit_button("Plot Sector Breakdown")
+                if submitted:
+                    df = globals()['ranking_%s%s' %
                                    (year_selected,
                                     months_dict[month_selected])]
-                         ['ICB Industry name'] == sector_selected], )
-            "---"
-            with st.expander("Comment"):
-                comment = st.text_area("",
-                                       placeholder="Enter a comment here ...")
-            "---"
-            submitted = st.form_submit_button("Save Data")
-            if submitted:
-                period = str(st.session_state["year"]) + "_" + str(
-                    st.session_state["month"])
-                sector = str(st.session_state["sector"])
-                #data = conn.read(spreadsheet=url, worksheet=gids[0])
-                #st.dataframe(data)
+                    value_counts = df['ICB Industry name'][:int(
+                        number_selected[-3:])].value_counts()
 
-                # TODO: Insert values into database
-                #st.write(f"sectors: {sectors}")
-                st.success("Data saved!")
+                    empty_labels = [''] * len(value_counts)
+                    fig, ax = plt.subplots()
+                    plt.figure(figsize=(8,
+                                        8))  # Set the figure size (optional)
+                    pie = ax.pie(value_counts,
+                                 labels=empty_labels,
+                                 autopct='%1.0f%%',
+                                 textprops={
+                                     'fontsize': 12,
+                                     'color': 'black'
+                                 },
+                                 startangle=90)
+                    ax.axis('equal')
+                    ax.legend(pie[0],
+                              value_counts.index,
+                              title='Sector Breakdown (%s)' % number_selected,
+                              loc="center left",
+                              bbox_to_anchor=(1, 0, 0.5, 1))
+                    st.pyplot(fig)
+                    comment = "Some comment"
 
     with right_column:
         st_lottie(lottie_stock, height=300, key="stock")
