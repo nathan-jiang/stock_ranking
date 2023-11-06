@@ -69,14 +69,13 @@ sectors = [
 ]
 no_of_stocks = ['top 100', 'top 200', 'top 300', 'top 400', 'top 500']
 
-#xlsx_url = 'https://github.com/nathan-jiang/stock_ranking_web_app/blob/main/combined_ranking_new_method.xlsx'
+xlsx_url = 'https://github.com/nathan-jiang/stock_ranking_web_app/blob/main/combined_ranking_new_method.xlsx'
 #ranking_lists = pd.ExcelFile(xlsx_url)
-ranking_lists = pd.ExcelFile('combined_ranking_new_method.xlsx')
+#ranking_lists = pd.ExcelFile('combined_ranking_new_method.xlsx')
 
 
 for date in dates:
-    globals()['ranking_%s' % date] = pd.read_excel(ranking_lists,
-                                                   date,
+    globals()['ranking_%s' % date] = pd.read_excel(xlsx_url, sheet_name=date,
                                                    index_col=0)
 
 # ---- SOMETHING MORE ----
