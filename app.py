@@ -75,7 +75,7 @@ xlsx_url = 'https://github.com/nathan-jiang/stock_ranking_web_app/blob/main/comb
 
 
 for date in dates:
-    globals()['ranking_%s' % date] = pd.read_excel(xlsx_url, sheet_name=date, engine="openpyxl"
+    globals()['ranking_%s' % date] = pd.read_excel(xlsx_url, sheet_name=date, engine="openpyxl",
                                                    index_col=0)
 
 # ---- SOMETHING MORE ----
