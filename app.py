@@ -11,6 +11,7 @@ import seaborn as sns
 
 sns.set()
 import matplotlib.pyplot as plt
+from zipfile import ZipFile
 
 # find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="Ranking Algo on Stocks",
@@ -69,14 +70,12 @@ sectors = [
 ]
 no_of_stocks = ['top 100', 'top 200', 'top 300', 'top 400', 'top 500']
 
-xlsx_url = 'https://github.com/nathan-jiang/stock_ranking_web_app/blob/main/combined_ranking_new_method.xlsx'
-#ranking_lists = pd.ExcelFile(xlsx_url)
-#ranking_lists = pd.ExcelFile('combined_ranking_new_method.xlsx')
+zip_url = 'https://github.com/nathan-jiang/stock_ranking_web_app/blob/main/data.zip'
 
-
-for date in dates:
-    globals()['ranking_%s' % date] = pd.read_excel(xlsx_url, sheet_name=date, engine="xlrd",
-                                                   index_col=0)
+with ZipFile(zip_url, 'r') as zip_file:
+    for file_name in zip_file.namelist():
+        with zip_file.open(file_name) as csv_file:
+            globals()['ranking_%s' % file_name] = pd.read_csv(csv_file, index_col=0)
 
 # ---- SOMETHING MORE ----
 with st.container():
@@ -96,9 +95,6 @@ with st.container():
             # ---- INPUT & SAVE PERIODS ----
             with st.form("entry_form", clear_on_submit=True):
                 col1, col2, col3 = st.columns(3)
-                #col1.selectbox("Select Month:", months, key="month")
-                #col2.selectbox("Select Year:", years, key="year")
-                #col3.selectbox("Select Sector:", sectors, key="sector")
                 month_selected = col1.selectbox("Select Month:", months)
                 year_selected = col2.selectbox("Select Year:", years)
                 sector_selected = col3.selectbox("Select Sector:", sectors)
