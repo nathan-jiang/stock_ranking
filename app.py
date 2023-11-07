@@ -71,7 +71,7 @@ sectors = [
 ]
 no_of_stocks = ['top 100', 'top 200', 'top 300', 'top 400', 'top 500']
 
-base_url = 'https://github.com/nathan-jiang/stock_ranking_web_app/blob/main/data/'
+base_url = 'https://raw.githubusercontent.com/nathan-jiang/stock_ranking_web_app/main/data/'
 for date in dates:
     response = requests.get(f'{base_url}{date}.csv')
     if response.status_code == 200:
