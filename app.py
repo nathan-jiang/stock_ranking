@@ -76,7 +76,7 @@ for date in dates:
     response = requests.get(f'{base_url}{date}.csv')
     if response.status_code == 200:
         csv_content = io.BytesIO(response.content)
-        globals()['ranking_%s' % date] = pd.read_csv(io.BytesIO(csv_content))
+        globals()['ranking_%s' % date] = pd.read_csv(csv_content)
         globals()['ranking_%s' % date].set_index(globals()['ranking_%s' % date].columns[0], inplace=True)
 
 # ---- SOMETHING MORE ----
