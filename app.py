@@ -71,19 +71,13 @@ sectors = [
 ]
 no_of_stocks = ['top 100', 'top 200', 'top 300', 'top 400', 'top 500']
 
-zip_url = 'https://github.com/nathan-jiang/stock_ranking_web_app/blob/main/data.zip'
-response = requests.get(zip_url)
-
-if response.status_code == 200:
-    with zipfile.ZipFile(io.BytesIO(response.content), "r") as zip_ref:
-        file_list = zip_ref.namelist()
-        for file_name in file_list:
-            with zip_ref.open(file_name) as csv_file:
-                file_contents = csv_file.read()
-                globals()['ranking_%s' % file_name] = pd.read_csv(io.BytesIO(file_contents))
-                globals()['ranking_%s' % file_name].set_index(globals()['ranking_%s' % file_name].columns[0], inplace=True)  
-else:
-    print("Failed to download the ZIP archive.")
+base_url = 'https://github.com/nathan-jiang/stock_ranking_web_app/blob/main/data/'
+for date in dates:
+    response = requests.get(f'{base_url}{date}.csv')
+    if response.status_code == 200:
+        csv_content = io.BytesIO(response.content)
+        globals()['ranking_%s' % date] = pd.read_csv(io.BytesIO(csv_content))
+        globals()['ranking_%s' % date].set_index(globals()['ranking_%s' % date].columns[0], inplace=True)
 
 # ---- SOMETHING MORE ----
 with st.container():
