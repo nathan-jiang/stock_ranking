@@ -73,33 +73,17 @@ no_of_stocks = ['top 100', 'top 200', 'top 300', 'top 400', 'top 500']
 
 zip_url = 'https://github.com/nathan-jiang/stock_ranking_web_app/blob/main/data.zip'
 response = requests.get(zip_url)
-if response.status_code == 200:
-    # Extract the files from the ZIP archive in memory
-    with zipfile.ZipFile(io.BytesIO(response.content), "r") as zip_ref:
-        # List the files in the archive
-        file_list = zip_ref.namelist()
 
-        # Process the files as needed
+if response.status_code == 200:
+    with zipfile.ZipFile(io.BytesIO(response.content), "r") as zip_ref:
+        file_list = zip_ref.namelist()
         for file_name in file_list:
             with zip_ref.open(file_name) as csv_file:
-                # Do something with each file, e.g., read its contents
-                globals()['ranking_%s' % file_name] = file.read()
-                # Process file_contents as needed
+                file_contents = csv_file.read()
+                globals()['ranking_%s' % file_name] = pd.read_csv(io.BytesIO(file_contents))
+                globals()['ranking_%s' % file_name].set_index(globals()['ranking_%s' % file_name].columns[0], inplace=True)  
 else:
     print("Failed to download the ZIP archive.")
-if response.status_code == 200:
-    with open("data.zip", "wb") as f:
-        f.write(response.content)
-else:
-    print("Failed to download the ZIP archive.")
-
-
-with ZipFile(zip_url, 'r') as zip_file:
-    for file_name in zip_file.namelist():
-        with zip_file.open(file_name) as csv_file:
-            file_contents = file.read()
-            globals()['ranking_%s' % file_name] = pd.read_csv(io.BytesIO(file_contents))
-            globals()['ranking_%s' % file_name].set_index(globals()['ranking_%s' % file_name].columns[0], inplace=True)
 
 # ---- SOMETHING MORE ----
 with st.container():
