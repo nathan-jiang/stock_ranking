@@ -9,5 +9,5 @@ seaborn==0.12.2
 streamlit==1.23.1
 streamlit-lottie==0.0.5
 streamlit-option-menu==0.3.6
-zipfile==3.2
+zipfile==3.0
 
