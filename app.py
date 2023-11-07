@@ -12,7 +12,7 @@ import seaborn as sns
 
 sns.set()
 import matplotlib.pyplot as plt
-from zipfile import ZipFile
+import zipfile
 
 # find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="Ranking Algo on Stocks",
