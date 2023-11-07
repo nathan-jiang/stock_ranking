@@ -1,0 +1,1747 @@
+Instrument,ICB Industry name,Rank
+RTX.N,Industrials,1
+COIN.OQ,Financials,2
+F.N,Consumer Discretionary,3
+JKS.N,Energy,4
+WTW.OQ,Financials,5
+TSLA.OQ,Consumer Discretionary,6
+TNYA.OQ,Health Care,7
+HON.OQ,Industrials,8
+OPRA.OQ,Technology,9
+SSYS.OQ,Technology,10
+OMC.N,Consumer Discretionary,11
+SNPO.OQ,Consumer Discretionary,12
+ABC.N,Consumer Staples,13
+UHS.N,Health Care,14
+LUV.N,Consumer Discretionary,15
+V.N,Industrials,16
+MA.N,Industrials,17
+IPG.N,Consumer Discretionary,18
+TME.N,Consumer Discretionary,19
+ST.N,Industrials,20
+SPGI.N,Financials,21
+ALB.N,Basic Materials,22
+SHCR.OQ,Health Care,23
+SYK.N,Health Care,24
+JBL.N,Technology,25
+PAG.N,Consumer Discretionary,26
+DDI.OQ,Consumer Discretionary,27
+ANGO.OQ,Health Care,28
+TBI.N,Industrials,29
+NETI.N,Industrials,30
+ICE.N,Financials,31
+LMT.N,Industrials,32
+MSFT.OQ,Technology,33
+EL.N,Consumer Discretionary,34
+SST.N,Technology,35
+TIGO.OQ,Telecommunications,36
+PCG.N,Utilities,37
+GM.N,Consumer Discretionary,38
+WULF.OQ,Technology,39
+IR.N,Industrials,40
+TROX.N,Basic Materials,41
+MAN.N,Industrials,42
+LTH.N,Consumer Discretionary,43
+DAL.N,Consumer Discretionary,44
+MHK.N,Industrials,45
+GPC.N,Consumer Discretionary,46
+RXT.OQ,Technology,47
+ACN.N,Industrials,48
+TSVT.OQ,Health Care,49
+CSIQ.OQ,Energy,50
+APTV.N,Consumer Discretionary,51
+AMZN.OQ,Consumer Discretionary,52
+WST.N,Health Care,53
+ALK.N,Consumer Discretionary,54
+MIR.N,Industrials,55
+LHX.N,Industrials,56
+KAMN.N,Industrials,57
+TGLS.N,Industrials,58
+AJG.N,Financials,59
+EFX.N,Industrials,60
+NTCT.OQ,Technology,61
+RSVR.OQ,Consumer Discretionary,62
+NVDA.OQ,Technology,63
+SAH.N,Consumer Discretionary,64
+AEVA.N,Technology,65
+AAPL.OQ,Technology,66
+CTSH.OQ,Technology,67
+CRM.N,Technology,68
+PPG.N,Industrials,69
+B.N,Industrials,70
+ABG.N,Consumer Discretionary,71
+FLEX.OQ,Technology,72
+NOC.N,Industrials,73
+AGCO.N,Industrials,74
+TYRA.OQ,Health Care,75
+PEGA.OQ,Technology,76
+HXL.N,Basic Materials,77
+FISV.OQ,Industrials,78
+ARMK.N,Consumer Discretionary,79
+TEX.N,Industrials,80
+EA.OQ,Consumer Discretionary,81
+ENS.N,Industrials,82
+CBRE.N,Real Estate,83
+NWSA.OQ,Consumer Discretionary,84
+SSNC.OQ,Technology,85
+GPN.N,Industrials,86
+BDC.N,Industrials,87
+CNMD.N,Health Care,88
+SNA.N,Industrials,89
+AMD.OQ,Technology,90
+NTES.OQ,Consumer Discretionary,91
+MLM.N,Industrials,92
+FELE.OQ,Industrials,93
+SLGN.N,Industrials,94
+NAUT.OQ,Health Care,95
+COST.OQ,Consumer Discretionary,96
+TRVG.OQ,Consumer Discretionary,97
+WIRE.OQ,Industrials,98
+LVS.N,Consumer Discretionary,99
+PFE.N,Health Care,100
+EEFT.OQ,Industrials,101
+MRK.N,Health Care,102
+MTW.N,Industrials,103
+MOGa.N,Industrials,104
+OPK.OQ,Health Care,105
+SPOT.N,Consumer Discretionary,106
+CGNX.OQ,Industrials,107
+IRDM.OQ,Telecommunications,108
+OFIX.OQ,Health Care,109
+ORCL.N,Technology,110
+BMY.N,Health Care,111
+VCYT.OQ,Health Care,112
+IHS.N,Telecommunications,113
+ZBH.N,Health Care,114
+SGRY.OQ,Health Care,115
+KBR.N,Technology,116
+GPRO.OQ,Consumer Discretionary,117
+YMAB.OQ,Health Care,118
+JNPR.N,Telecommunications,119
+TDY.N,Industrials,120
+OMCL.OQ,Health Care,121
+ECL.N,Basic Materials,122
+WHR.N,Consumer Discretionary,123
+HCSG.OQ,Health Care,124
+CECE.OQ,Industrials,125
+EXP.N,Industrials,126
+IDCC.OQ,Telecommunications,127
+GILD.OQ,Health Care,128
+GGG.N,Industrials,129
+AN.N,Consumer Discretionary,130
+MTLS.OQ,Technology,131
+VMI.N,Industrials,132
+HLIO.N,Industrials,133
+PEP.OQ,Consumer Staples,134
+MTRN.N,Basic Materials,135
+FBHS.N,Industrials,136
+HUBB.N,Industrials,137
+KO.N,Consumer Staples,138
+ACM.N,Industrials,139
+ADTN.OQ,Telecommunications,140
+TER.OQ,Technology,141
+VCSA.OQ,Consumer Discretionary,142
+EBS.N,Health Care,143
+TRS.OQ,Industrials,144
+LMB.OQ,Industrials,145
+GDOT.N,Industrials,146
+OEC.N,Basic Materials,147
+LXFR.N,Industrials,148
+NKE.N,Consumer Discretionary,149
+TREE.OQ,Financials,150
+LW.N,Consumer Staples,151
+ESAB.N,Industrials,152
+ORA.N,Utilities,153
+NDAQ.OQ,Financials,154
+RICK.OQ,Consumer Discretionary,155
+AVGO.OQ,Technology,156
+ENTG.OQ,Technology,157
+TERN.OQ,Health Care,158
+STVN.N,Health Care,159
+WMT.N,Consumer Discretionary,160
+MPWR.OQ,Technology,161
+DOX.OQ,Technology,162
+NEP.N,Utilities,163
+EBAY.OQ,Consumer Discretionary,164
+MNRO.OQ,Consumer Discretionary,165
+AMK.N,Financials,166
+GWW.N,Industrials,167
+BYD.N,Consumer Discretionary,168
+LLY.N,Health Care,169
+MSI.N,Telecommunications,170
+ACMR.OQ,Technology,171
+LKQ.OQ,Consumer Discretionary,172
+DDD.N,Technology,173
+MCRI.OQ,Consumer Discretionary,174
+HSII.OQ,Industrials,175
+MERC.OQ,Basic Materials,176
+GE.N,Industrials,177
+BAX.N,Health Care,178
+SRCL.OQ,Utilities,179
+FLT.N,Industrials,180
+CSGP.OQ,Real Estate,181
+CNDT.OQ,Industrials,182
+HRI.N,Industrials,183
+CDW.OQ,Technology,184
+MCO.N,Financials,185
+GPI.N,Consumer Discretionary,186
+LEGH.OQ,Consumer Discretionary,187
+LPX.N,Industrials,188
+AVNS.N,Health Care,189
+PSFE.N,Industrials,190
+CSCO.OQ,Telecommunications,191
+BIDU.OQ,Technology,192
+BIIB.OQ,Health Care,193
+VRTX.OQ,Health Care,194
+MUSA.N,Consumer Discretionary,195
+FCN.N,Industrials,196
+MRNA.OQ,Health Care,197
+ATVI.OQ,Consumer Discretionary,198
+AVT.OQ,Technology,199
+TTEK.OQ,Industrials,200
+JCI.N,Industrials,201
+CNNE.N,Financials,202
+VSH.N,Technology,203
+VMW.N,Technology,204
+THRY.OQ,Consumer Discretionary,205
+TJX.N,Consumer Discretionary,206
+STGW.OQ,Consumer Discretionary,207
+MMC.N,Financials,208
+VMC.N,Industrials,209
+EVCM.OQ,Technology,210
+PLUS.OQ,Technology,211
+LAD.N,Consumer Discretionary,212
+NEE.N,Utilities,213
+KMB.N,Consumer Staples,214
+LASR.OQ,Technology,215
+SHYF.OQ,Industrials,216
+CINT.N,Technology,217
+DOV.N,Industrials,218
+FHI.N,Financials,219
+MX.N,Technology,220
+NVT.N,Industrials,221
+OMER.OQ,Health Care,222
+AEP.OQ,Utilities,223
+BRO.N,Financials,224
+CAT.N,Industrials,225
+AGR.N,Utilities,226
+NMRK.OQ,Real Estate,227
+CRTO.OQ,Technology,228
+SLAB.OQ,Technology,229
+NOMD.N,Consumer Staples,230
+SR.N,Utilities,231
+BSY.OQ,Technology,232
+COTY.N,Consumer Discretionary,233
+AYI.N,Industrials,234
+DGX.N,Health Care,235
+ENVA.N,Financials,236
+RADA.OQ,Industrials,237
+KIDS.OQ,Health Care,238
+THC.N,Health Care,239
+IRBT.OQ,Consumer Discretionary,240
+CHD.N,Consumer Staples,241
+WM.N,Utilities,242
+EMR.N,Industrials,243
+MODV.OQ,Health Care,244
+EVTC.N,Industrials,245
+STE.N,Health Care,246
+HRT.N,Industrials,247
+HII.N,Industrials,248
+BKD.N,Health Care,249
+ASUR.OQ,Technology,250
+FN.N,Technology,251
+AMCX.OQ,Consumer Discretionary,252
+FOXA.OQ,Consumer Discretionary,253
+PYPL.OQ,Industrials,254
+TMO.N,Health Care,255
+JLL.N,Real Estate,256
+SWI.N,Technology,257
+ROL.N,Consumer Discretionary,258
+MMSI.OQ,Health Care,259
+ASGN.N,Industrials,260
+ARW.N,Technology,261
+ACIW.OQ,Industrials,262
+LFUS.OQ,Industrials,263
+CWENa.N,Utilities,264
+BERY.N,Industrials,265
+NOVA.N,Utilities,266
+ALLE.N,Industrials,267
+PTGX.OQ,Health Care,268
+SNCY.OQ,Consumer Discretionary,269
+MKSI.OQ,Industrials,270
+HSY.N,Consumer Staples,271
+GDYN.OQ,Technology,272
+SNX.N,Technology,273
+BMBL.OQ,Technology,274
+ROK.N,Industrials,275
+DXC.N,Technology,276
+PLL.OQ,Basic Materials,277
+MOMO.OQ,Technology,278
+CC.N,Basic Materials,279
+EMN.N,Basic Materials,280
+STLD.OQ,Basic Materials,281
+WY.N,Real Estate,282
+COHR.OQ,Technology,283
+TT.N,Industrials,284
+AMKR.OQ,Technology,285
+MATW.OQ,Consumer Discretionary,286
+EHC.N,Health Care,287
+KEYS.N,Industrials,288
+LIN.N,Basic Materials,289
+FWONA.OQ,Consumer Discretionary,290
+ALVR.OQ,Health Care,291
+MMS.N,Industrials,292
+CTLP.OQ,Industrials,293
+ENOV.N,Health Care,294
+HWM.N,Industrials,295
+PLXS.OQ,Technology,296
+HDSN.OQ,Industrials,297
+PKI.N,Health Care,298
+NSIT.OQ,Technology,299
+RYI.N,Basic Materials,300
+TEL.N,Technology,301
+AME.N,Industrials,302
+PVH.N,Consumer Discretionary,303
+OIS.N,Energy,304
+CEG.OQ,Utilities,305
+GFS.OQ,Technology,306
+RCUS.N,Health Care,307
+USFD.N,Consumer Staples,308
+GOOGL.OQ,Technology,309
+AOS.N,Industrials,310
+NABL.N,Technology,311
+ACA.N,Energy,312
+NFLX.OQ,Consumer Discretionary,313
+TMUS.OQ,Telecommunications,314
+NJR.N,Utilities,315
+ABT.N,Health Care,316
+MDT.N,Health Care,317
+WWD.OQ,Industrials,318
+TRU.N,Industrials,319
+MXL.OQ,Technology,320
+VRNT.OQ,Technology,321
+MTN.N,Consumer Discretionary,322
+MWA.N,Industrials,323
+XEL.OQ,Utilities,324
+BKNG.OQ,Consumer Discretionary,325
+REVG.N,Industrials,326
+MRTX.OQ,Health Care,327
+G.N,Industrials,328
+HSTM.OQ,Health Care,329
+III.OQ,Industrials,330
+EYE.OQ,Consumer Discretionary,331
+GPOR.N,Energy,332
+CSX.OQ,Industrials,333
+NVST.N,Health Care,334
+ASPN.N,Industrials,335
+FA.OQ,Industrials,336
+UPS.N,Industrials,337
+OTTR.OQ,Industrials,338
+SSRM.OQ,Basic Materials,339
+JOBY.N,Industrials,340
+SEDG.OQ,Energy,341
+VSEC.OQ,Industrials,342
+PRFT.OQ,Technology,343
+NOW.N,Technology,344
+BSX.N,Health Care,345
+CCRN.OQ,Industrials,346
+SXT.N,Basic Materials,347
+NEM.N,Basic Materials,348
+PG.N,Consumer Staples,349
+CPRT.OQ,Consumer Discretionary,350
+BBCP.OQ,Industrials,351
+UAL.OQ,Consumer Discretionary,352
+MASI.OQ,Health Care,353
+META.OQ,Technology,354
+ANGI.OQ,Consumer Discretionary,355
+FCEL.OQ,Energy,356
+PAYC.N,Technology,357
+VRTS.OQ,Financials,358
+WETF.OQ,Financials,359
+CVS.N,Consumer Staples,360
+KRO.N,Industrials,361
+XMTR.OQ,Technology,362
+FLGT.OQ,Health Care,363
+FATE.OQ,Health Care,364
+INTC.OQ,Technology,365
+GDEN.OQ,Consumer Discretionary,366
+LGND.OQ,Health Care,367
+HAYN.OQ,Basic Materials,368
+EXC.OQ,Utilities,369
+LTHM.N,Basic Materials,370
+DCGO.OQ,Health Care,371
+KELYA.OQ,Industrials,372
+LH.N,Health Care,373
+ALE.N,Utilities,374
+HWKN.OQ,Basic Materials,375
+CW.N,Industrials,376
+QNST.OQ,Consumer Discretionary,377
+IT.N,Technology,378
+FCFS.OQ,Financials,379
+SP.OQ,Industrials,380
+GVA.N,Industrials,381
+SUM.N,Industrials,382
+RCM.OQ,Health Care,383
+MANU.N,Consumer Discretionary,384
+NWE.OQ,Utilities,385
+TYL.N,Technology,386
+JBLU.OQ,Consumer Discretionary,387
+VTNR.OQ,Utilities,388
+NUVA.OQ,Health Care,389
+VRSK.OQ,Industrials,390
+SSTK.N,Technology,391
+HEI.N,Industrials,392
+CNXC.OQ,Technology,393
+TWKS.OQ,Technology,394
+AIT.N,Industrials,395
+NPO.N,Industrials,396
+IBEX.OQ,Industrials,397
+SWKS.OQ,Technology,398
+MSA.N,Industrials,399
+TWNK.OQ,Consumer Staples,400
+RMAX.N,Real Estate,401
+CODI.N,Financials,402
+VRDN.OQ,Health Care,403
+GRMN.N,Consumer Discretionary,404
+VNT.N,Industrials,405
+EW.N,Health Care,406
+INST.N,Consumer Discretionary,407
+HPE.N,Technology,408
+FIP.OQ,Industrials,409
+SNPS.OQ,Technology,410
+PNM.N,Utilities,411
+ROG.N,Technology,412
+QRTEA.OQ,Consumer Discretionary,413
+HOOD.OQ,Financials,414
+ZD.OQ,Technology,415
+ES.N,Utilities,416
+SGHC.N,Consumer Discretionary,417
+BIP.N,Utilities,418
+XOM.N,Energy,419
+DIS.N,Consumer Discretionary,420
+AGIO.OQ,Health Care,421
+CSV.N,Consumer Discretionary,422
+PCRX.OQ,Health Care,423
+T.N,Telecommunications,424
+AMGN.OQ,Health Care,425
+CNC.N,Health Care,426
+CGNT.OQ,Technology,427
+PEG.N,Utilities,428
+GLW.N,Technology,429
+COMM.OQ,Telecommunications,430
+RBLX.N,Consumer Discretionary,431
+MDLZ.OQ,Consumer Staples,432
+DAVA.N,Technology,433
+XENE.OQ,Health Care,434
+OUT.N,Real Estate,435
+EXPE.OQ,Consumer Discretionary,436
+INSP.N,Health Care,437
+CHDN.OQ,Consumer Discretionary,438
+TDCX.N,Technology,439
+DH.OQ,Technology,440
+EQIX.OQ,Real Estate,441
+NOTE.N,Technology,442
+CTAS.OQ,Industrials,443
+RSG.N,Utilities,444
+CMI.N,Industrials,445
+EXLS.OQ,Industrials,446
+QURE.OQ,Health Care,447
+CALX.N,Telecommunications,448
+FSS.N,Industrials,449
+DRVN.OQ,Consumer Discretionary,450
+TTC.N,Industrials,451
+MYRG.OQ,Industrials,452
+TXRH.OQ,Consumer Discretionary,453
+VMEO.OQ,Technology,454
+AVNT.N,Basic Materials,455
+NUE.N,Basic Materials,456
+BWXT.N,Industrials,457
+TPIC.OQ,Energy,458
+YUMC.N,Consumer Discretionary,459
+RYAN.N,Financials,460
+CTVA.N,Consumer Staples,461
+NXPI.OQ,Technology,462
+CDNS.OQ,Technology,463
+CRDb.N,Financials,464
+RCKT.OQ,Health Care,465
+WLY.N,Consumer Discretionary,466
+PRM.N,Basic Materials,467
+ACI.N,Consumer Staples,468
+SPB.N,Consumer Staples,469
+USPH.N,Health Care,470
+PDD.OQ,Technology,471
+HSC.N,Utilities,472
+CROX.OQ,Consumer Discretionary,473
+BBY.N,Consumer Discretionary,474
+ALG.N,Industrials,475
+HZNP.OQ,Health Care,476
+LECO.OQ,Industrials,477
+SLDP.OQ,Energy,478
+JNJ.N,Health Care,479
+BABA.N,Consumer Discretionary,480
+EPAM.N,Technology,481
+ATEX.OQ,Telecommunications,482
+KFY.N,Industrials,483
+BRKR.OQ,Health Care,484
+PPC.OQ,Consumer Staples,485
+ICUI.OQ,Health Care,486
+BTAI.OQ,Health Care,487
+HSIC.OQ,Health Care,488
+CASY.OQ,Consumer Staples,489
+ZI.OQ,Technology,490
+MYGN.OQ,Health Care,491
+CWST.OQ,Utilities,492
+SPSC.OQ,Technology,493
+OSIS.OQ,Industrials,494
+PI.OQ,Technology,495
+TFX.N,Health Care,496
+TKR.N,Basic Materials,497
+FLS.N,Industrials,498
+FERG.N,Industrials,499
+OLPX.OQ,Consumer Staples,500
+J.N,Industrials,501
+BLKB.OQ,Technology,502
+BLD.N,Industrials,503
+SBGI.OQ,Consumer Discretionary,504
+YEXT.N,Technology,505
+ESE.N,Industrials,506
+WTS.N,Industrials,507
+OLED.OQ,Technology,508
+EVLV.OQ,Industrials,509
+SPWR.OQ,Energy,510
+MITK.OQ,Technology,511
+TXN.OQ,Technology,512
+SOVO.OQ,Consumer Staples,513
+ENPH.OQ,Energy,514
+KHC.OQ,Consumer Staples,515
+APLS.OQ,Health Care,516
+POST.N,Consumer Staples,517
+ETWO.N,Technology,518
+BLBD.OQ,Industrials,519
+TOST.N,Technology,520
+NVCR.OQ,Health Care,521
+BKR.OQ,Energy,522
+PCH.OQ,Real Estate,523
+NTRA.OQ,Health Care,524
+UCTT.OQ,Technology,525
+RMD.N,Health Care,526
+WNS.N,Industrials,527
+ICFI.OQ,Industrials,528
+AOSL.OQ,Technology,529
+KFRC.OQ,Industrials,530
+CRAI.OQ,Industrials,531
+TSEM.OQ,Technology,532
+COO.N,Health Care,533
+WWW.N,Consumer Discretionary,534
+KWR.N,Basic Materials,535
+BIOX.OQ,Basic Materials,536
+MANH.OQ,Technology,537
+NWN.N,Utilities,538
+AVO.OQ,Consumer Staples,539
+AXON.OQ,Industrials,540
+APPF.OQ,Technology,541
+WEC.N,Utilities,542
+AA.N,Basic Materials,543
+MEI.N,Technology,544
+BVS.OQ,Health Care,545
+WWE.N,Consumer Discretionary,546
+FMC.N,Basic Materials,547
+PNW.N,Utilities,548
+WGO.N,Consumer Discretionary,549
+GD.N,Industrials,550
+INTU.OQ,Technology,551
+KRTX.OQ,Health Care,552
+KAR.N,Consumer Discretionary,553
+AXTA.N,Industrials,554
+DIOD.OQ,Technology,555
+MDGL.OQ,Health Care,556
+DXCM.OQ,Health Care,557
+LMAT.OQ,Health Care,558
+TX.N,Basic Materials,559
+DY.N,Industrials,560
+NXGN.OQ,Health Care,561
+MRVL.OQ,Technology,562
+RNW.OQ,Utilities,563
+VCEL.OQ,Health Care,564
+DUK.N,Utilities,565
+ITOS.OQ,Health Care,566
+PLAB.OQ,Technology,567
+PHR.N,Health Care,568
+ULCC.OQ,Consumer Discretionary,569
+FNKO.OQ,Consumer Discretionary,570
+SMP.N,Consumer Discretionary,571
+MAXN.OQ,Energy,572
+SAVE.N,Consumer Discretionary,573
+FIS.N,Industrials,574
+SPNS.OQ,Technology,575
+TTWO.OQ,Consumer Discretionary,576
+RDFN.OQ,Real Estate,577
+HLIT.OQ,Telecommunications,578
+CI.N,Health Care,579
+MOH.N,Health Care,580
+CVX.N,Energy,581
+CHE.N,Health Care,582
+ADT.N,Industrials,583
+MTD.N,Industrials,584
+GBTG.N,Industrials,585
+AVA.N,Utilities,586
+LAMR.OQ,Real Estate,587
+BWA.N,Consumer Discretionary,588
+PRCT.OQ,Health Care,589
+FSR.N,Consumer Discretionary,590
+APD.N,Basic Materials,591
+ROST.OQ,Consumer Discretionary,592
+SYNH.OQ,Health Care,593
+MATV.N,Basic Materials,594
+ALKS.OQ,Health Care,595
+ZG.OQ,Real Estate,596
+SGH.OQ,Technology,597
+CBZ.N,Industrials,598
+HLT.N,Consumer Discretionary,599
+ADP.OQ,Industrials,600
+ED.N,Utilities,601
+ANDE.OQ,Consumer Staples,602
+SRRK.OQ,Health Care,603
+CSGS.OQ,Technology,604
+SRE.N,Utilities,605
+CVEO.N,Energy,606
+TMCI.OQ,Health Care,607
+PSMT.OQ,Consumer Discretionary,608
+REZI.N,Industrials,609
+MTTR.OQ,Technology,610
+PSTG.N,Technology,611
+ESTC.N,Technology,612
+NSC.N,Industrials,613
+WNC.N,Industrials,614
+RCEL.OQ,Health Care,615
+BCC.N,Basic Materials,616
+CNP.N,Utilities,617
+DVA.N,Health Care,618
+BCOR.OQ,Financials,619
+RES.N,Energy,620
+JKHY.OQ,Industrials,621
+SWK.N,Industrials,622
+MD.N,Health Care,623
+XRX.OQ,Technology,624
+GIS.N,Consumer Staples,625
+VIPS.N,Consumer Discretionary,626
+SHW.N,Industrials,627
+MGNI.OQ,Technology,628
+IAC.OQ,Technology,629
+CDMO.OQ,Health Care,630
+SSP.OQ,Consumer Discretionary,631
+INT.N,Energy,632
+NI.N,Utilities,633
+CVCO.OQ,Consumer Discretionary,634
+UPWK.OQ,Technology,635
+SWBI.OQ,Consumer Discretionary,636
+ATO.N,Utilities,637
+BRLT.OQ,Consumer Discretionary,638
+OB.OQ,Consumer Discretionary,639
+HL.N,Basic Materials,640
+ALGT.OQ,Consumer Discretionary,641
+GTES.N,Industrials,642
+NOVT.OQ,Technology,643
+MLNK.N,Technology,644
+DHR.N,Health Care,645
+PACB.OQ,Health Care,646
+BLFS.OQ,Health Care,647
+CMCSA.OQ,Telecommunications,648
+SO.N,Utilities,649
+ANSS.OQ,Technology,650
+ALSN.N,Industrials,651
+SWAV.OQ,Health Care,652
+KRUS.OQ,Consumer Discretionary,653
+K.N,Consumer Staples,654
+IBP.N,Industrials,655
+SPH.N,Consumer Discretionary,656
+AIRS.OQ,Health Care,657
+RDWR.OQ,Technology,658
+LULU.OQ,Consumer Discretionary,659
+MP.N,Basic Materials,660
+IDA.N,Utilities,661
+NTAP.OQ,Technology,662
+DLB.N,Technology,663
+OMI.N,Health Care,664
+CRNC.OQ,Technology,665
+SIBN.OQ,Health Care,666
+FTV.N,Industrials,667
+ESMT.N,Technology,668
+BOOM.OQ,Energy,669
+HD.N,Consumer Discretionary,670
+RRX.N,Industrials,671
+INGR.N,Consumer Staples,672
+PODD.OQ,Health Care,673
+DM.N,Industrials,674
+KYMR.OQ,Health Care,675
+BV.N,Industrials,676
+MGPI.OQ,Consumer Staples,677
+OI.N,Industrials,678
+TGH.N,Industrials,679
+SANM.OQ,Technology,680
+BLNK.OQ,Consumer Discretionary,681
+ADV.OQ,Industrials,682
+CLH.N,Utilities,683
+JHG.N,Financials,684
+BGS.N,Consumer Staples,685
+ITT.N,Industrials,686
+RELY.OQ,Industrials,687
+LSCC.OQ,Technology,688
+ROAD.OQ,Industrials,689
+A.N,Health Care,690
+ICPT.OQ,Health Care,691
+BLMN.OQ,Consumer Discretionary,692
+WOOF.OQ,Consumer Discretionary,693
+CWH.N,Consumer Discretionary,694
+LYTS.OQ,Industrials,695
+APH.N,Technology,696
+REYN.OQ,Consumer Staples,697
+TAP.N,Consumer Staples,698
+X.N,Basic Materials,699
+CLDX.OQ,Health Care,700
+ARNC.N,Basic Materials,701
+HAIN.OQ,Consumer Staples,702
+CCI.N,Real Estate,703
+WBA.OQ,Consumer Staples,704
+CLFD.OQ,Telecommunications,705
+SQ.N,Industrials,706
+DFIN.N,Industrials,707
+PRTA.OQ,Health Care,708
+LEG.N,Consumer Discretionary,709
+HOLX.OQ,Health Care,710
+AEE.N,Utilities,711
+WCC.N,Industrials,712
+CLNE.OQ,Consumer Discretionary,713
+EIX.N,Utilities,714
+GLNG.OQ,Energy,715
+TGT.N,Consumer Discretionary,716
+ZBRA.OQ,Industrials,717
+RRR.OQ,Consumer Discretionary,718
+MNDY.OQ,Technology,719
+NEO.OQ,Health Care,720
+KR.N,Consumer Staples,721
+AMT.N,Real Estate,722
+KRNT.OQ,Industrials,723
+COLM.OQ,Consumer Discretionary,724
+MODN.N,Technology,725
+ATR.N,Industrials,726
+AZEK.N,Industrials,727
+GMED.N,Health Care,728
+XYL.N,Industrials,729
+OCUL.OQ,Health Care,730
+QSR.N,Consumer Discretionary,731
+IQV.N,Health Care,732
+LNT.OQ,Utilities,733
+AMAT.OQ,Technology,734
+BMEA.OQ,Health Care,735
+HI.N,Industrials,736
+APG.N,Industrials,737
+DGII.OQ,Telecommunications,738
+DNB.N,Technology,739
+VZ.N,Telecommunications,740
+ITCI.OQ,Health Care,741
+BBSI.OQ,Industrials,742
+CLVT.N,Technology,743
+SJM.N,Consumer Staples,744
+WBX.N,Energy,745
+GWRS.OQ,Utilities,746
+GLUE.OQ,Health Care,747
+TRMB.OQ,Industrials,748
+THR.N,Industrials,749
+CMPX.OQ,Health Care,750
+NDSN.OQ,Industrials,751
+OSK.N,Industrials,752
+SGEN.OQ,Health Care,753
+LILA.OQ,Telecommunications,754
+CL.N,Consumer Staples,755
+AAON.OQ,Industrials,756
+CLX.N,Consumer Staples,757
+KLTR.OQ,Telecommunications,758
+FLR.N,Industrials,759
+BC.N,Industrials,760
+DNMR.N,Industrials,761
+ZNTL.OQ,Health Care,762
+OGE.N,Utilities,763
+PGTI.N,Industrials,764
+WAB.N,Industrials,765
+GHRS.OQ,Health Care,766
+CMC.N,Basic Materials,767
+PKOH.OQ,Industrials,768
+FDX.N,Industrials,769
+AMN.N,Industrials,770
+DOOR.N,Industrials,771
+CPLP.OQ,Industrials,772
+PAGP.OQ,Energy,773
+PAA.OQ,Energy,774
+MAT.OQ,Consumer Discretionary,775
+ARRY.OQ,Energy,776
+XRAY.OQ,Health Care,777
+DECK.N,Consumer Discretionary,778
+AXGN.OQ,Health Care,779
+DNUT.OQ,Consumer Discretionary,780
+BECN.OQ,Industrials,781
+FE.N,Utilities,782
+GEVO.OQ,Energy,783
+FDMT.OQ,Health Care,784
+INFA.N,Technology,785
+WLKP.N,Basic Materials,786
+AUDC.OQ,Telecommunications,787
+ADNT.N,Consumer Discretionary,788
+SHOP.N,Technology,789
+LDOS.N,Technology,790
+BKI.N,Technology,791
+OC.N,Industrials,792
+USAC.N,Energy,793
+ALIT.N,Industrials,794
+PANW.OQ,Technology,795
+DCI.N,Industrials,796
+BLDR.N,Industrials,797
+XNCR.OQ,Health Care,798
+ONTF.N,Technology,799
+FORR.OQ,Industrials,800
+AIN.N,Industrials,801
+CIR.N,Industrials,802
+IBM.N,Technology,803
+SKLZ.N,Technology,804
+TTMI.OQ,Technology,805
+RARE.OQ,Health Care,806
+NYT.N,Consumer Discretionary,807
+VPG.N,Industrials,808
+NVEE.OQ,Industrials,809
+INDI.OQ,Technology,810
+AKRO.OQ,Health Care,811
+RMBS.OQ,Technology,812
+VC.OQ,Consumer Discretionary,813
+AMED.OQ,Health Care,814
+NVGS.N,Industrials,815
+SEER.OQ,Health Care,816
+BR.N,Financials,817
+SHAK.N,Consumer Discretionary,818
+UFPI.OQ,Basic Materials,819
+AZZ.N,Industrials,820
+SON.N,Industrials,821
+DDS.N,Consumer Discretionary,822
+GOCO.OQ,Financials,823
+SB.N,Industrials,824
+CME.OQ,Financials,825
+KLAC.OQ,Technology,826
+BOC.N,Consumer Discretionary,827
+LEA.N,Consumer Discretionary,828
+FDP.N,Consumer Staples,829
+AY.OQ,Utilities,830
+CHEF.OQ,Consumer Staples,831
+DRI.N,Consumer Discretionary,832
+AMRX.N,Health Care,833
+SSTI.OQ,Industrials,834
+D.N,Utilities,835
+HRMY.OQ,Health Care,836
+VIAV.OQ,Telecommunications,837
+NET.N,Technology,838
+AMWD.OQ,Industrials,839
+TPR.N,Consumer Discretionary,840
+CE.N,Basic Materials,841
+AFYA.OQ,Consumer Discretionary,842
+POR.N,Utilities,843
+SWX.N,Utilities,844
+BKH.N,Utilities,845
+CACI.N,Technology,846
+SCL.N,Basic Materials,847
+PDCO.OQ,Health Care,848
+REGN.OQ,Health Care,849
+XPEL.OQ,Consumer Discretionary,850
+RIOT.OQ,Financials,851
+ADM.N,Consumer Staples,852
+MPLN.N,Health Care,853
+YOU.N,Technology,854
+EGLE.OQ,Industrials,855
+NRG.N,Utilities,856
+SYNA.OQ,Technology,857
+SEM.N,Health Care,858
+ICHR.OQ,Technology,859
+OGS.N,Utilities,860
+CENT.OQ,Consumer Discretionary,861
+SKIN.OQ,Consumer Staples,862
+DLX.N,Industrials,863
+CWAN.N,Financials,864
+ASLE.OQ,Industrials,865
+EZPW.OQ,Financials,866
+SBLK.OQ,Industrials,867
+ACVA.OQ,Consumer Discretionary,868
+PTC.OQ,Technology,869
+UTZ.N,Consumer Staples,870
+SITM.OQ,Technology,871
+EE.N,Utilities,872
+GIII.OQ,Consumer Discretionary,873
+SLCA.N,Basic Materials,874
+CDAY.N,Technology,875
+SEAT.OQ,Technology,876
+CRL.N,Health Care,877
+EWTX.OQ,Health Care,878
+URI.N,Industrials,879
+TGTX.OQ,Health Care,880
+NEXA.N,Basic Materials,881
+PDFS.OQ,Technology,882
+SMTC.OQ,Technology,883
+RGLD.OQ,Basic Materials,884
+ASH.N,Basic Materials,885
+TNC.N,Industrials,886
+INNV.OQ,Health Care,887
+MAR.OQ,Consumer Discretionary,888
+RS.N,Basic Materials,889
+EPC.N,Consumer Staples,890
+VSAT.OQ,Telecommunications,891
+FOXF.OQ,Consumer Discretionary,892
+LBTYA.OQ,Telecommunications,893
+GFF.N,Industrials,894
+MOD.N,Industrials,895
+ELF.N,Consumer Discretionary,896
+AES.N,Utilities,897
+FIGS.N,Consumer Discretionary,898
+FVRR.N,Technology,899
+CPNG.N,Consumer Discretionary,900
+DTE.N,Utilities,901
+SATS.OQ,Telecommunications,902
+KMX.N,Consumer Discretionary,903
+CSL.N,Industrials,904
+WTTR.N,Energy,905
+H.N,Consumer Discretionary,906
+ORIC.OQ,Health Care,907
+TREX.N,Industrials,908
+STRL.OQ,Industrials,909
+LFST.OQ,Health Care,910
+CMCO.OQ,Industrials,911
+SG.N,Consumer Discretionary,912
+SHLS.OQ,Energy,913
+GWH.N,Energy,914
+SCPL.OQ,Consumer Discretionary,915
+ATSG.OQ,Industrials,916
+SKY.N,Consumer Discretionary,917
+FSLR.OQ,Energy,918
+BE.N,Industrials,919
+AWK.N,Utilities,920
+VLD.N,Industrials,921
+UFPT.OQ,Health Care,922
+GKOS.N,Health Care,923
+NGMS.OQ,Consumer Discretionary,924
+INFN.OQ,Telecommunications,925
+STAA.OQ,Health Care,926
+RYAM.N,Basic Materials,927
+OSUR.OQ,Health Care,928
+BARK.N,Consumer Discretionary,929
+HAS.OQ,Consumer Discretionary,930
+CERT.OQ,Health Care,931
+VTRS.OQ,Health Care,932
+SLQT.N,Consumer Discretionary,933
+SIMO.OQ,Technology,934
+FIX.N,Industrials,935
+FWRG.OQ,Consumer Discretionary,936
+PRIM.OQ,Industrials,937
+IOT.N,Technology,938
+MU.OQ,Technology,939
+CDRE.N,Industrials,940
+PENN.OQ,Consumer Discretionary,941
+TMST.N,Basic Materials,942
+MODG.N,Consumer Discretionary,943
+AKYA.OQ,Health Care,944
+GEL.N,Energy,945
+ALRM.OQ,Technology,946
+IONS.OQ,Health Care,947
+ABNB.OQ,Consumer Discretionary,948
+MTZ.N,Industrials,949
+GPK.N,Industrials,950
+GT.OQ,Consumer Discretionary,951
+KDNY.OQ,Health Care,952
+TECK.N,Basic Materials,953
+RVMD.OQ,Health Care,954
+INTA.OQ,Technology,955
+CSTL.OQ,Health Care,956
+UNF.N,Industrials,957
+ICLR.OQ,Health Care,958
+JELD.N,Industrials,959
+NX.N,Industrials,960
+MNST.OQ,Consumer Staples,961
+KROS.OQ,Health Care,962
+PRGS.OQ,Technology,963
+UGI.N,Utilities,964
+QUOT.N,Consumer Discretionary,965
+AIR.N,Industrials,966
+DRQ.N,Energy,967
+LNTH.OQ,Health Care,968
+ADBE.OQ,Technology,969
+AGTI.N,Health Care,970
+ZIMV.OQ,Health Care,971
+NMM.N,Industrials,972
+DT.N,Technology,973
+ASTE.OQ,Industrials,974
+FARO.OQ,Industrials,975
+JAMF.OQ,Technology,976
+GHC.N,Consumer Discretionary,977
+CBRL.OQ,Consumer Discretionary,978
+AMOT.OQ,Industrials,979
+CCK.N,Industrials,980
+LITE.OQ,Telecommunications,981
+CYRX.OQ,Industrials,982
+PAR.N,Technology,983
+CAL.N,Consumer Discretionary,984
+AVD.N,Basic Materials,985
+CMS.N,Utilities,986
+DD.N,Industrials,987
+JBT.N,Industrials,988
+SHO.N,Real Estate,989
+VREX.OQ,Health Care,990
+FORM.OQ,Technology,991
+CAG.N,Consumer Staples,992
+SBH.N,Consumer Discretionary,993
+ELAN.N,Health Care,994
+ALTR.OQ,Technology,995
+IGT.N,Consumer Discretionary,996
+EVC.N,Consumer Discretionary,997
+GETY.N,Technology,998
+QCOM.OQ,Technology,999
+HZO.N,Consumer Discretionary,1000
+PANL.OQ,Industrials,1001
+ILMN.OQ,Health Care,1002
+ABBV.N,Health Care,1003
+DG.N,Consumer Discretionary,1004
+AHCO.OQ,Health Care,1005
+LQDA.OQ,Health Care,1006
+IIIN.N,Industrials,1007
+SLGC.OQ,Health Care,1008
+WOLF.N,Technology,1009
+BG.N,Consumer Staples,1010
+NSP.N,Industrials,1011
+PAYX.OQ,Industrials,1012
+TXT.N,Industrials,1013
+HIMS.N,Health Care,1014
+ZUMZ.OQ,Consumer Discretionary,1015
+KC.OQ,Technology,1016
+CIEN.N,Telecommunications,1017
+NARI.OQ,Health Care,1018
+LSTR.OQ,Industrials,1019
+IIIV.OQ,Industrials,1020
+CHUY.OQ,Consumer Discretionary,1021
+AVTR.N,Health Care,1022
+SHEN.OQ,Telecommunications,1023
+SONO.OQ,Consumer Discretionary,1024
+CXW.N,Industrials,1025
+FUL.N,Industrials,1026
+FDS.N,Financials,1027
+PINS.N,Technology,1028
+RADI.OQ,Real Estate,1029
+MCS.N,Consumer Discretionary,1030
+GXO.N,Industrials,1031
+CRUS.OQ,Technology,1032
+KN.N,Consumer Discretionary,1033
+TMDX.OQ,Health Care,1034
+KLIC.OQ,Technology,1035
+GOGL.OQ,Industrials,1036
+FCX.N,Basic Materials,1037
+DAC.N,Industrials,1038
+TTEC.OQ,Industrials,1039
+SEIC.OQ,Financials,1040
+PPL.N,Utilities,1041
+OII.N,Energy,1042
+ALKT.OQ,Technology,1043
+DSGR.OQ,Industrials,1044
+DOW.N,Basic Materials,1045
+EVBG.OQ,Technology,1046
+DBI.N,Consumer Discretionary,1047
+ARVN.OQ,Health Care,1048
+LNW.OQ,Consumer Discretionary,1049
+WK.N,Technology,1050
+DSX.N,Industrials,1051
+HYLN.N,Industrials,1052
+ALTO.OQ,Basic Materials,1053
+FSLY.N,Technology,1054
+VVV.N,Basic Materials,1055
+ALGM.OQ,Technology,1056
+TSE.N,Industrials,1057
+THO.N,Consumer Discretionary,1058
+RNGR.N,Energy,1059
+SAIC.N,Technology,1060
+TILE.OQ,Consumer Discretionary,1061
+QRVO.OQ,Technology,1062
+KDP.OQ,Consumer Staples,1063
+AZTA.OQ,Health Care,1064
+PLRX.OQ,Health Care,1065
+ROCK.OQ,Industrials,1066
+PX.N,Financials,1067
+GNK.N,Industrials,1068
+FRG.OQ,Consumer Discretionary,1069
+ASIX.N,Basic Materials,1070
+EXPD.OQ,Industrials,1071
+EXAS.OQ,Health Care,1072
+CTKB.OQ,Health Care,1073
+GEF.N,Industrials,1074
+SITE.N,Consumer Discretionary,1075
+RPAY.OQ,Industrials,1076
+TGNA.N,Consumer Discretionary,1077
+CBT.N,Basic Materials,1078
+MOV.N,Consumer Discretionary,1079
+BIO.N,Health Care,1080
+FTCH.N,Consumer Discretionary,1081
+CHK.OQ,Energy,1082
+MCHP.OQ,Technology,1083
+THS.N,Consumer Staples,1084
+BOOT.N,Consumer Discretionary,1085
+TSN.N,Consumer Staples,1086
+DIN.N,Consumer Discretionary,1087
+LCII.N,Consumer Discretionary,1088
+DO.N,Energy,1089
+SEE.N,Industrials,1090
+WDAY.OQ,Technology,1091
+HLMN.OQ,Industrials,1092
+EVRI.N,Consumer Discretionary,1093
+UNFI.N,Consumer Staples,1094
+CPSI.OQ,Health Care,1095
+SMWB.N,Industrials,1096
+CHX.OQ,Energy,1097
+ANIP.OQ,Health Care,1098
+QGEN.N,Health Care,1099
+CIVI.N,Energy,1100
+CYBR.OQ,Technology,1101
+GO.OQ,Consumer Staples,1102
+MELI.OQ,Consumer Discretionary,1103
+QDEL.OQ,Health Care,1104
+NUS.N,Consumer Staples,1105
+ACCO.N,Consumer Staples,1106
+ZEUS.OQ,Basic Materials,1107
+PTVE.OQ,Industrials,1108
+AVY.N,Basic Materials,1109
+SE.N,Technology,1110
+PTSI.OQ,Industrials,1111
+GSL.N,Industrials,1112
+LPRO.OQ,Financials,1113
+WSO.N,Industrials,1114
+ZETA.N,Technology,1115
+SKYW.OQ,Consumer Discretionary,1116
+COP.N,Energy,1117
+MGM.N,Consumer Discretionary,1118
+SPTN.OQ,Consumer Staples,1119
+IRM.N,Real Estate,1120
+KMI.N,Energy,1121
+KRYS.OQ,Health Care,1122
+WEN.OQ,Consumer Discretionary,1123
+ZTS.N,Health Care,1124
+TTD.OQ,Consumer Discretionary,1125
+LNN.N,Industrials,1126
+VNET.OQ,Technology,1127
+MPC.N,Energy,1128
+IFF.N,Basic Materials,1129
+WLK.N,Basic Materials,1130
+LRN.N,Consumer Discretionary,1131
+RL.N,Consumer Discretionary,1132
+OXM.N,Consumer Discretionary,1133
+RGNX.OQ,Health Care,1134
+NVTS.OQ,Technology,1135
+TSP.OQ,Industrials,1136
+APOG.OQ,Industrials,1137
+WLDN.OQ,Industrials,1138
+RDNT.OQ,Health Care,1139
+IDXX.OQ,Health Care,1140
+SFL.N,Industrials,1141
+FLNC.OQ,Energy,1142
+VST.N,Utilities,1143
+PRDO.OQ,Consumer Discretionary,1144
+LOPE.OQ,Consumer Discretionary,1145
+ET.N,Energy,1146
+DAN.N,Consumer Discretionary,1147
+MGEE.OQ,Utilities,1148
+AGS.N,Consumer Discretionary,1149
+CANO.N,Health Care,1150
+CDE.N,Basic Materials,1151
+CNM.N,Industrials,1152
+WSC.OQ,Industrials,1153
+ERII.OQ,Industrials,1154
+BEAM.OQ,Health Care,1155
+RUSHA.OQ,Consumer Discretionary,1156
+DLTR.OQ,Consumer Discretionary,1157
+USM.N,Telecommunications,1158
+BOX.N,Technology,1159
+OPCH.OQ,Health Care,1160
+PSX.N,Energy,1161
+TBLA.OQ,Technology,1162
+MSM.N,Industrials,1163
+MKC.N,Consumer Staples,1164
+XPER.OQ,Technology,1165
+WDC.OQ,Technology,1166
+TTSH.OQ,Consumer Discretionary,1167
+NWPX.OQ,Basic Materials,1168
+SCPH.OQ,Health Care,1169
+GMS.N,Industrials,1170
+ODP.OQ,Consumer Discretionary,1171
+TPC.N,Industrials,1172
+PETQ.OQ,Health Care,1173
+PCVX.OQ,Health Care,1174
+UTHR.OQ,Health Care,1175
+FTI.N,Energy,1176
+TDS.N,Telecommunications,1177
+ULH.OQ,Industrials,1178
+ARKO.OQ,Consumer Discretionary,1179
+WOW.N,Telecommunications,1180
+PNR.N,Industrials,1181
+VRM.OQ,Technology,1182
+PUBM.OQ,Technology,1183
+PERI.OQ,Technology,1184
+CPB.N,Consumer Staples,1185
+TDC.N,Technology,1186
+GLDD.OQ,Industrials,1187
+AYX.N,Technology,1188
+VLO.N,Energy,1189
+BALL.N,Industrials,1190
+LYB.N,Basic Materials,1191
+SKX.N,Consumer Discretionary,1192
+ACLX.OQ,Health Care,1193
+ITW.N,Industrials,1194
+CRDO.OQ,Technology,1195
+SUN.N,Energy,1196
+ATNI.OQ,Telecommunications,1197
+CMRE.N,Industrials,1198
+LZB.N,Consumer Discretionary,1199
+CHRD.OQ,Energy,1200
+NCR.N,Technology,1201
+SHC.OQ,Health Care,1202
+TH.OQ,Industrials,1203
+SRPT.OQ,Health Care,1204
+APPN.OQ,Technology,1205
+DCO.N,Industrials,1206
+TWST.OQ,Health Care,1207
+HRL.N,Consumer Staples,1208
+JJSF.OQ,Consumer Staples,1209
+WRK.N,Industrials,1210
+TNP.N,Industrials,1211
+NVRO.N,Health Care,1212
+REX.N,Energy,1213
+WEST.OQ,Consumer Staples,1214
+MARA.OQ,Financials,1215
+HOUS.N,Real Estate,1216
+AKAM.OQ,Technology,1217
+WOR.N,Basic Materials,1218
+IPI.N,Basic Materials,1219
+URBN.OQ,Consumer Discretionary,1220
+HAL.N,Energy,1221
+HUN.N,Basic Materials,1222
+RPRX.OQ,Health Care,1223
+FAST.OQ,Basic Materials,1224
+DORM.OQ,Consumer Discretionary,1225
+CRI.N,Consumer Discretionary,1226
+PRGO.N,Health Care,1227
+UDMY.OQ,Consumer Discretionary,1228
+HOG.N,Consumer Discretionary,1229
+FIVN.OQ,Technology,1230
+SILK.OQ,Health Care,1231
+CMTL.OQ,Telecommunications,1232
+M.N,Consumer Discretionary,1233
+DTC.N,Consumer Discretionary,1234
+PSN.N,Technology,1235
+ECVT.N,Basic Materials,1236
+BRY.OQ,Energy,1237
+VSTO.N,Consumer Discretionary,1238
+RXST.OQ,Health Care,1239
+DKS.N,Consumer Discretionary,1240
+FLYW.OQ,Industrials,1241
+IAS.OQ,Consumer Discretionary,1242
+CNSL.OQ,Telecommunications,1243
+VAXX.OQ,Health Care,1244
+PTLO.OQ,Consumer Discretionary,1245
+KD.N,Technology,1246
+HLLY.N,Consumer Discretionary,1247
+CENX.OQ,Basic Materials,1248
+COOK.N,Consumer Discretionary,1249
+MMI.N,Real Estate,1250
+ATKR.N,Industrials,1251
+RBBN.OQ,Telecommunications,1252
+KURA.OQ,Health Care,1253
+ASO.OQ,Consumer Discretionary,1254
+LGFa.N,Consumer Discretionary,1255
+CLB.N,Energy,1256
+MTX.N,Basic Materials,1257
+MOS.N,Basic Materials,1258
+KAI.N,Industrials,1259
+EOG.N,Energy,1260
+CPE.N,Energy,1261
+FL.N,Consumer Discretionary,1262
+KALU.OQ,Basic Materials,1263
+MMM.N,Industrials,1264
+MDRX.OQ,Technology,1265
+CTS.N,Technology,1266
+EHAB.N,Health Care,1267
+STZ.N,Consumer Staples,1268
+LAUR.OQ,Consumer Discretionary,1269
+AMWL.N,Health Care,1270
+EME.N,Industrials,1271
+LOVE.OQ,Consumer Discretionary,1272
+SNDR.N,Industrials,1273
+XPEV.N,Consumer Discretionary,1274
+NIO.N,Consumer Discretionary,1275
+BKSY.N,Industrials,1276
+ACEL.N,Consumer Discretionary,1277
+EVH.N,Health Care,1278
+NATI.OQ,Technology,1279
+LE.OQ,Consumer Discretionary,1280
+BFb.N,Consumer Staples,1281
+JAZZ.OQ,Health Care,1282
+ETD.N,Consumer Discretionary,1283
+MLKN.OQ,Consumer Discretionary,1284
+HCC.N,Energy,1285
+NE.N,Energy,1286
+MRO.N,Energy,1287
+TNK.N,Industrials,1288
+DKNG.OQ,Consumer Discretionary,1289
+SPXC.N,Industrials,1290
+AAP.N,Consumer Discretionary,1291
+VRRM.OQ,Industrials,1292
+BALY.N,Consumer Discretionary,1293
+FLO.N,Consumer Staples,1294
+OLLI.OQ,Consumer Discretionary,1295
+DINO.N,Energy,1296
+ATGE.N,Consumer Discretionary,1297
+ABM.N,Industrials,1298
+RGTI.OQ,Technology,1299
+BDX.N,Health Care,1300
+CALM.OQ,Consumer Staples,1301
+ROLL.OQ,Basic Materials,1302
+KNX.N,Industrials,1303
+PBF.N,Energy,1304
+ENV.N,Technology,1305
+ASRT.OQ,Health Care,1306
+HEP.N,Energy,1307
+NCNO.OQ,Technology,1308
+HNI.N,Consumer Discretionary,1309
+LPI.N,Energy,1310
+HTLD.OQ,Industrials,1311
+CVLT.OQ,Technology,1312
+KEX.N,Industrials,1313
+KOP.N,Basic Materials,1314
+BIG.N,Consumer Discretionary,1315
+NSSC.OQ,Industrials,1316
+LNDC.OQ,Consumer Staples,1317
+CEQP.N,Energy,1318
+MUR.N,Energy,1319
+UAA.N,Consumer Discretionary,1320
+COHU.OQ,Technology,1321
+PII.N,Consumer Discretionary,1322
+IOSP.OQ,Basic Materials,1323
+RYN.N,Real Estate,1324
+TRGP.N,Energy,1325
+ENVX.OQ,Industrials,1326
+NFG.N,Utilities,1327
+MPLX.N,Energy,1328
+NGL.N,Energy,1329
+LAW.N,Industrials,1330
+LBRDA.OQ,Telecommunications,1331
+ALV.N,Consumer Discretionary,1332
+SRDX.OQ,Health Care,1333
+PLOW.N,Industrials,1334
+ARHS.OQ,Consumer Discretionary,1335
+DOCU.OQ,Technology,1336
+PXD.N,Energy,1337
+WES.N,Energy,1338
+QSI.OQ,Health Care,1339
+HLX.N,Energy,1340
+BAH.N,Industrials,1341
+BCPC.OQ,Basic Materials,1342
+STEM.N,Energy,1343
+FORG.N,Technology,1344
+EDR.N,Consumer Discretionary,1345
+PCTY.OQ,Industrials,1346
+SCS.N,Consumer Discretionary,1347
+AEIS.OQ,Technology,1348
+LUNA.OQ,Industrials,1349
+STR.N,Energy,1350
+NXST.OQ,Consumer Discretionary,1351
+AWI.N,Industrials,1352
+GPRK.N,Energy,1353
+TWI.N,Industrials,1354
+TALK.OQ,Health Care,1355
+CHPT.N,Energy,1356
+EXPI.OQ,Real Estate,1357
+METC.OQ,Energy,1358
+ODFL.OQ,Industrials,1359
+FTDR.OQ,Consumer Discretionary,1360
+HA.OQ,Consumer Discretionary,1361
+SBOW.N,Energy,1362
+MEDP.OQ,Health Care,1363
+WHD.N,Energy,1364
+CHTR.OQ,Telecommunications,1365
+SUPN.OQ,Health Care,1366
+GLP.N,Energy,1367
+GAMB.OQ,Consumer Discretionary,1368
+ARLP.OQ,Energy,1369
+IEX.N,Industrials,1370
+GOLF.N,Consumer Discretionary,1371
+MRTN.OQ,Industrials,1372
+ARCB.OQ,Industrials,1373
+MYTE.N,Consumer Discretionary,1374
+R.N,Industrials,1375
+CSTM.N,Basic Materials,1376
+STRA.OQ,Consumer Discretionary,1377
+PACK.N,Industrials,1378
+OLN.N,Basic Materials,1379
+EWCZ.OQ,Consumer Discretionary,1380
+EBIX.OQ,Technology,1381
+WERN.OQ,Industrials,1382
+AXL.N,Consumer Discretionary,1383
+FANG.OQ,Energy,1384
+WAT.N,Industrials,1385
+XPRO.N,Energy,1386
+WDFC.OQ,Consumer Staples,1387
+LUNG.OQ,Health Care,1388
+SXC.N,Energy,1389
+LPG.N,Industrials,1390
+EGY.N,Energy,1391
+SM.N,Energy,1392
+SCHN.OQ,Basic Materials,1393
+PYCR.OQ,Technology,1394
+WH.N,Consumer Discretionary,1395
+KRP.N,Energy,1396
+GSM.OQ,Basic Materials,1397
+MCRB.OQ,Health Care,1398
+VVI.N,Consumer Discretionary,1399
+LOCO.OQ,Consumer Discretionary,1400
+BL.OQ,Technology,1401
+MLAB.OQ,Industrials,1402
+ANF.N,Consumer Discretionary,1403
+STNE.OQ,Industrials,1404
+MATX.N,Industrials,1405
+BHIL.N,Consumer Staples,1406
+ESI.N,Basic Materials,1407
+KRT.OQ,Industrials,1408
+HES.N,Energy,1409
+HVT.N,Consumer Discretionary,1410
+BAND.OQ,Technology,1411
+SIG.N,Consumer Discretionary,1412
+USNA.N,Consumer Staples,1413
+DOCN.N,Technology,1414
+PCOR.N,Technology,1415
+ONON.N,Consumer Discretionary,1416
+HCKT.OQ,Technology,1417
+CDLX.OQ,Consumer Discretionary,1418
+NOV.N,Energy,1419
+SPOK.OQ,Telecommunications,1420
+ITRI.OQ,Industrials,1421
+VFC.N,Consumer Discretionary,1422
+ABCL.OQ,Health Care,1423
+IP.N,Basic Materials,1424
+BWMX.OQ,Consumer Staples,1425
+SMCI.OQ,Technology,1426
+MKFG.N,Industrials,1427
+FLWS.OQ,Consumer Discretionary,1428
+ZWS.N,Industrials,1429
+IGMS.OQ,Health Care,1430
+DADA.OQ,Technology,1431
+BRP.OQ,Financials,1432
+HESM.N,Energy,1433
+CDNA.OQ,Health Care,1434
+INSW.N,Industrials,1435
+TWOU.OQ,Consumer Discretionary,1436
+IART.OQ,Health Care,1437
+GCI.N,Consumer Discretionary,1438
+CF.N,Basic Materials,1439
+DAR.N,Consumer Staples,1440
+ACLS.OQ,Technology,1441
+ATRC.OQ,Health Care,1442
+VTRU.OQ,Consumer Discretionary,1443
+CAKE.OQ,Consumer Discretionary,1444
+SRI.N,Consumer Discretionary,1445
+ASAN.N,Technology,1446
+ACCD.OQ,Health Care,1447
+CRS.N,Basic Materials,1448
+CDZI.OQ,Utilities,1449
+FWRD.OQ,Industrials,1450
+SMPL.OQ,Consumer Staples,1451
+ASC.N,Industrials,1452
+BTU.N,Energy,1453
+WMG.OQ,Consumer Discretionary,1454
+ON.OQ,Technology,1455
+FOLD.OQ,Health Care,1456
+CWK.N,Real Estate,1457
+NLOK.OQ,Technology,1458
+GTLS.N,Industrials,1459
+MVST.OQ,Industrials,1460
+WBD.OQ,Consumer Discretionary,1461
+JBHT.OQ,Industrials,1462
+DEN.N,Energy,1463
+CLF.N,Basic Materials,1464
+POOL.OQ,Consumer Discretionary,1465
+BFAM.N,Consumer Discretionary,1466
+CMP.N,Basic Materials,1467
+CRWD.OQ,Technology,1468
+HP.N,Energy,1469
+LBRT.N,Energy,1470
+ENLC.N,Energy,1471
+PLAY.OQ,Consumer Discretionary,1472
+TDW.N,Energy,1473
+EQT.N,Energy,1474
+NVMI.OQ,Technology,1475
+PARA.OQ,Consumer Discretionary,1476
+AVPT.OQ,Technology,1477
+MDB.OQ,Technology,1478
+CERE.OQ,Health Care,1479
+MMP.N,Energy,1480
+HCAT.OQ,Health Care,1481
+OXY.N,Energy,1482
+KTOS.OQ,Industrials,1483
+HUBS.N,Technology,1484
+HAE.N,Health Care,1485
+KSS.N,Consumer Discretionary,1486
+CARR.N,Industrials,1487
+PUMP.N,Energy,1488
+CABO.N,Telecommunications,1489
+ATRO.OQ,Industrials,1490
+HNRG.OQ,Energy,1491
+GEO.N,Real Estate,1492
+WMB.N,Energy,1493
+DHT.N,Industrials,1494
+TSCO.OQ,Consumer Discretionary,1495
+ARCO.N,Consumer Discretionary,1496
+SSD.N,Industrials,1497
+TDUP.OQ,Consumer Discretionary,1498
+CHRW.OQ,Industrials,1499
+EDAP.OQ,Health Care,1500
+ASND.OQ,Health Care,1501
+CVGW.OQ,Consumer Staples,1502
+GH.OQ,Health Care,1503
+CVLG.OQ,Industrials,1504
+IMCR.OQ,Health Care,1505
+SLVM.N,Basic Materials,1506
+GNTX.OQ,Consumer Discretionary,1507
+TLYS.N,Consumer Discretionary,1508
+IHRT.OQ,Consumer Discretionary,1509
+DASH.N,Technology,1510
+BJRI.OQ,Consumer Discretionary,1511
+DDOG.OQ,Technology,1512
+MIDD.OQ,Industrials,1513
+DXLG.OQ,Consumer Discretionary,1514
+UNP.N,Industrials,1515
+CHH.N,Consumer Discretionary,1516
+QTWO.N,Technology,1517
+BJ.N,Consumer Discretionary,1518
+GES.N,Consumer Discretionary,1519
+HUBG.OQ,Industrials,1520
+SFM.OQ,Consumer Staples,1521
+WEAV.N,Technology,1522
+NAT.N,Industrials,1523
+BURL.N,Consumer Discretionary,1524
+PRVA.OQ,Health Care,1525
+AMPH.OQ,Health Care,1526
+HCCI.OQ,Utilities,1527
+EXFY.OQ,Technology,1528
+OKTA.OQ,Technology,1529
+BIGC.OQ,Technology,1530
+ITGR.N,Health Care,1531
+PLUG.OQ,Energy,1532
+NGVT.N,Basic Materials,1533
+SMG.N,Basic Materials,1534
+DK.N,Energy,1535
+AVDX.OQ,Industrials,1536
+AMRC.N,Energy,1537
+OSW.OQ,Consumer Discretionary,1538
+EAF.N,Basic Materials,1539
+BCO.N,Industrials,1540
+EGRX.OQ,Health Care,1541
+NS.N,Energy,1542
+DISH.OQ,Telecommunications,1543
+ANAB.OQ,Health Care,1544
+CPS.N,Consumer Discretionary,1545
+MTSI.OQ,Technology,1546
+FND.N,Consumer Discretionary,1547
+SCVL.OQ,Consumer Discretionary,1548
+TNET.N,Industrials,1549
+AORT.N,Health Care,1550
+CTLT.N,Health Care,1551
+NRGV.N,Energy,1552
+RPM.N,Industrials,1553
+SLP.OQ,Technology,1554
+ALPN.OQ,Health Care,1555
+DV.N,Technology,1556
+COCO.OQ,Consumer Staples,1557
+AROC.N,Energy,1558
+LUMN.N,Telecommunications,1559
+VERX.OQ,Technology,1560
+BRC.N,Industrials,1561
+OKE.N,Energy,1562
+SKYT.OQ,Technology,1563
+RH.N,Consumer Discretionary,1564
+PGY.OQ,Industrials,1565
+EVA.N,Energy,1566
+NFE.OQ,Energy,1567
+MNTK.OQ,Energy,1568
+PBH.N,Health Care,1569
+RRC.N,Energy,1570
+ARIS.N,Utilities,1571
+MRCY.OQ,Industrials,1572
+GWRE.N,Technology,1573
+GNRC.N,Industrials,1574
+AMSWA.OQ,Technology,1575
+MGY.N,Energy,1576
+ARCH.N,Energy,1577
+NRDS.OQ,Technology,1578
+ENR.N,Consumer Staples,1579
+FC.N,Industrials,1580
+ACHC.OQ,Health Care,1581
+HIBB.OQ,Consumer Discretionary,1582
+VNOM.OQ,Energy,1583
+ACHR.N,Industrials,1584
+ROVR.OQ,Consumer Discretionary,1585
+NBIX.OQ,Health Care,1586
+HELE.OQ,Consumer Discretionary,1587
+HPK.OQ,Energy,1588
+CTRA.N,Energy,1589
+CAMT.OQ,Technology,1590
+PGEN.OQ,Health Care,1591
+DVN.N,Energy,1592
+LXU.N,Basic Materials,1593
+ZUO.N,Technology,1594
+ZS.OQ,Technology,1595
+IRTC.OQ,Health Care,1596
+BASE.OQ,Technology,1597
+SCCO.N,Basic Materials,1598
+OVV.N,Energy,1599
+SWTX.OQ,Health Care,1600
+MCFT.OQ,Consumer Discretionary,1601
+CRGY.N,Energy,1602
+GPRE.OQ,Energy,1603
+CARS.N,Consumer Discretionary,1604
+PR.N,Energy,1605
+TALO.N,Energy,1606
+CAPL.N,Energy,1607
+RXRX.OQ,Health Care,1608
+PARR.N,Energy,1609
+COLL.OQ,Health Care,1610
+PTEN.OQ,Energy,1611
+PWSC.N,Consumer Discretionary,1612
+UBER.N,Consumer Discretionary,1613
+TRIP.OQ,Consumer Discretionary,1614
+LIVN.OQ,Health Care,1615
+COMP.N,Real Estate,1616
+PETS.OQ,Consumer Staples,1617
+CCL.N,Consumer Discretionary,1618
+PKG.N,Industrials,1619
+CHS.N,Consumer Discretionary,1620
+EB.N,Technology,1621
+RIG.N,Energy,1622
+FIZZ.OQ,Consumer Staples,1623
+HAYW.N,Industrials,1624
+PCT.OQ,Industrials,1625
+CVRX.OQ,Health Care,1626
+LPSN.OQ,Technology,1627
+KTB.N,Consumer Discretionary,1628
+BFLY.N,Health Care,1629
+ENSG.OQ,Health Care,1630
+DSKE.OQ,Industrials,1631
+AMEH.OQ,Health Care,1632
+SWN.N,Energy,1633
+HURN.OQ,Industrials,1634
+WSM.N,Consumer Discretionary,1635
+BSM.N,Energy,1636
+IMTX.OQ,Health Care,1637
+CEIX.N,Energy,1638
+OGN.N,Health Care,1639
+LEVI.N,Consumer Discretionary,1640
+PRTS.OQ,Consumer Discretionary,1641
+TLRY.OQ,Health Care,1642
+HQY.OQ,Health Care,1643
+BBW.N,Consumer Discretionary,1644
+THRM.OQ,Consumer Discretionary,1645
+TXG.OQ,Health Care,1646
+DYN.OQ,Health Care,1647
+VITL.OQ,Consumer Staples,1648
+RKLB.OQ,Industrials,1649
+NN.OQ,Technology,1650
+PL.N,Technology,1651
+IRWD.OQ,Health Care,1652
+OPEN.OQ,Real Estate,1653
+APP.OQ,Technology,1654
+MCW.N,Consumer Discretionary,1655
+MQ.OQ,Industrials,1656
+VAL.N,Energy,1657
+CRK.N,Energy,1658
+CNX.N,Energy,1659
+QLYS.OQ,Technology,1660
+CZR.OQ,Consumer Discretionary,1661
+OLO.N,Technology,1662
+LVOX.OQ,Technology,1663
+NBR.N,Energy,1664
+PD.N,Technology,1665
+TARS.OQ,Health Care,1666
+ATEN.N,Technology,1667
+NCLH.N,Consumer Discretionary,1668
+VSCO.N,Consumer Discretionary,1669
+RYTM.OQ,Health Care,1670
+OM.OQ,Health Care,1671
+RVNC.OQ,Health Care,1672
+CHGG.N,Consumer Discretionary,1673
+GPS.N,Consumer Discretionary,1674
+MED.N,Consumer Staples,1675
+INSM.OQ,Health Care,1676
+AI.N,Technology,1677
+HALO.OQ,Health Care,1678
+RIVN.OQ,Consumer Discretionary,1679
+VRNS.OQ,Technology,1680
+DLO.OQ,Industrials,1681
+IPAR.OQ,Consumer Discretionary,1682
+LEGN.OQ,Health Care,1683
+APA.OQ,Energy,1684
+RCL.N,Consumer Discretionary,1685
+PRPL.OQ,Consumer Discretionary,1686
+NVAX.OQ,Health Care,1687
+PBPB.OQ,Consumer Discretionary,1688
+PLCE.OQ,Consumer Discretionary,1689
+AGYS.OQ,Technology,1690
+FRPT.OQ,Consumer Staples,1691
+XPO.N,Industrials,1692
+CLOV.OQ,Health Care,1693
+GPP.OQ,Energy,1694
+TAL.N,Consumer Discretionary,1695
+IONQ.N,Technology,1696
+NEX.N,Energy,1697
+SAIA.OQ,Industrials,1698
+LCID.OQ,Consumer Discretionary,1699
+JWN.N,Consumer Discretionary,1700
+CVI.N,Energy,1701
+FYBR.OQ,Telecommunications,1702
+ARAY.OQ,Health Care,1703
+SGHT.OQ,Health Care,1704
+SAM.N,Consumer Staples,1705
+DNA.N,Health Care,1706
+ADPT.OQ,Health Care,1707
+SFIX.OQ,Consumer Discretionary,1708
+TVTX.OQ,Health Care,1709
+VERA.OQ,Health Care,1710
+BROS.N,Consumer Discretionary,1711
+TDOC.N,Health Care,1712
+PTRA.OQ,Industrials,1713
+SPCE.N,Industrials,1714
+RGEN.OQ,Health Care,1715
+PTON.OQ,Consumer Discretionary,1716
+S.N,Technology,1717
+ETRN.N,Energy,1718
+NUVL.OQ,Health Care,1719
+CORT.OQ,Health Care,1720
+NEWR.N,Technology,1721
+NOG.N,Energy,1722
+LYFT.OQ,Consumer Discretionary,1723
+QS.N,Consumer Discretionary,1724
+TENB.OQ,Technology,1725
+KNSA.OQ,Health Care,1726
+RSI.N,Consumer Discretionary,1727
+ARDX.OQ,Health Care,1728
+KOS.N,Energy,1729
+AXNX.OQ,Health Care,1730
+CNK.N,Consumer Discretionary,1731
+WKHS.OQ,Industrials,1732
+WTI.N,Energy,1733
+TNDM.OQ,Health Care,1734
+VICR.OQ,Industrials,1735
+AGL.N,Health Care,1736
+ADMA.OQ,Health Care,1737
+PLTR.N,Technology,1738
+HBI.N,Consumer Discretionary,1739
+LZ.OQ,Industrials,1740
+NVTA.N,Health Care,1741
+TRUP.OQ,Financials,1742
+CERS.OQ,Health Care,1743
+HROW.OQ,Health Care,1744
+EOLS.OQ,Health Care,1745
+APLD.OQ,Technology,1746
