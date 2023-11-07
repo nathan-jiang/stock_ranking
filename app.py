@@ -72,12 +72,6 @@ sectors = [
 no_of_stocks = ['top 100', 'top 200', 'top 300', 'top 400', 'top 500']
 
 base_url = 'https://raw.githubusercontent.com/nathan-jiang/stock_ranking_web_app/main/data/'
-for date in dates:
-    response = requests.get(f'{base_url}{date}.csv')
-    if response.status_code == 200:
-        csv_content = io.BytesIO(response.content)
-        globals()['ranking_%s' % date] = pd.read_csv(csv_content)
-        globals()['ranking_%s' % date].set_index(globals()['ranking_%s' % date].columns[0], inplace=True)
 
 # ---- SOMETHING MORE ----
 with st.container():
@@ -106,19 +100,18 @@ with st.container():
                         f"Ranking for {month_selected}, {year_selected}, {sector_selected}"
                     )
                     if sector_selected == "All":
-                        df = st.dataframe(
-                            globals()['ranking_%s%s' %
-                                      (year_selected,
-                                       months_dict[month_selected])])
+                        if response.status_code == 200:
+                            csv_content = io.BytesIO(response.content)
+                            df = pd.read_csv(csv_content)
+                            df.set_index(df.columns[0], inplace=True)
+                            df = st.dataframe(df)
                     else:
-                        df = st.dataframe(
-                            globals()['ranking_%s%s' %
-                                      (year_selected,
-                                       months_dict[month_selected])]
-                            [globals()['ranking_%s%s' %
-                                       (year_selected,
-                                        months_dict[month_selected])]
-                             ['ICB Industry name'] == sector_selected])
+                        if response.status_code == 200:
+                            csv_content = io.BytesIO(response.content)
+                            df = pd.read_csv(csv_content)
+                            df.set_index(df.columns[0], inplace=True)
+                            df = st.dataframe(
+                                df[df['ICB Industry name'] == sector_selected])
                 "---"
                 with st.expander("Comment"):
                     comment = st.text_area(
@@ -145,12 +138,15 @@ with st.container():
                                                  no_of_stocks)
                 submitted = st.form_submit_button("Plot Sector Breakdown")
                 if submitted:
-                    df = globals()['ranking_%s%s' %
-                                   (year_selected,
-                                    months_dict[month_selected])]
+                    response = requests.get(
+                        f'{base_url}{year_selected}{months_dict[month_selected]}.csv'
+                    )
+                    if response.status_code == 200:
+                        csv_content = io.BytesIO(response.content)
+                        df = pd.read_csv(csv_content)
+                        df.set_index(df.columns[0], inplace=True)
                     value_counts = df['ICB Industry name'][:int(
                         number_selected[-3:])].value_counts()
-
                     empty_labels = [''] * len(value_counts)
                     fig, ax = plt.subplots()
                     plt.figure(figsize=(8,
