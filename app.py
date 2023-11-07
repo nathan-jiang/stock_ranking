@@ -99,6 +99,9 @@ with st.container():
                     st.write(
                         f"Ranking for {month_selected}, {year_selected}, {sector_selected}"
                     )
+                    response = requests.get(
+                        f'{base_url}{year_selected}{months_dict[month_selected]}.csv'
+                    )
                     if sector_selected == "All":
                         if response.status_code == 200:
                             csv_content = io.BytesIO(response.content)
