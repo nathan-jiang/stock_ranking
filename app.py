@@ -152,85 +152,92 @@ with st.container():
                     response = requests.get(
                         f'{base_url}{year_selected}{months_dict[month_selected]}.csv'
                     )
+                    if month_selected == 'January':
+                        response_prev = requests.get(
+                            f'{base_url}{year_selected-1}' + '12.csv')
+                    else:
+                        response_prev = requests.get(
+                            f'{base_url}{year_selected}' +
+                            str(int(months_dict[month_selected]) - 1) + '.csv')
                     if response.status_code == 200:
                         csv_content = io.BytesIO(response.content)
                         df = pd.read_csv(csv_content)
                         df.set_index(df.columns[0], inplace=True)
-                    value_counts = df['ICB Industry name'][:int(
-                        number_selected[-3:])].value_counts()
-                    empty_labels = [''] * len(value_counts)
+                        value_counts = df['ICB Industry name'][:int(
+                            number_selected[-3:])].value_counts()
 
-                    csv_content_prev = io.BytesIO(response_prev.content)
-                    df_prev = pd.read_csv(csv_content_prev)
-                    df_prev.set_index(df_prev.columns[0], inplace=True)
-                    value_counts_prev = df_prev['ICB Industry name'][:int(
-                        number_selected[-3:])].value_counts()
-                    
-                    fig = px.pie(names=value_counts.index,
-                                 values=value_counts,
-                                 title='Sector Breakdown (%s)' %
-                                 number_selected,
-                                 template='plotly',
-                                 hole=0.4)
+                        csv_content_prev = io.BytesIO(response_prev.content)
+                        df_prev = pd.read_csv(csv_content_prev)
+                        df_prev.set_index(df_prev.columns[0], inplace=True)
+                        value_counts_prev = df_prev['ICB Industry name'][:int(
+                            number_selected[-3:])].value_counts()
 
-                    fig.update_traces(
-                        textinfo='percent+label',
-                        hoverinfo='label+percent',
-                        textfont_size=12,
-                        textposition='outside',
-                    )
+                        #empty_labels = [''] * len(value_counts)
 
-                    fig.update_layout(
-                        showlegend=True,
-                        legend_title_text='ICB Industry Name',
-                        legend=dict(orientation='h',
-                                    yanchor='middle',
-                                    xanchor='left',
-                                    x=1.8,
-                                    y=0.6),
-                    )
+                        fig = px.pie(names=value_counts.index,
+                                     values=value_counts,
+                                     title='Sector Breakdown (%s)' %
+                                     number_selected,
+                                     template='plotly',
+                                     hole=0.4)
 
-                    st.plotly_chart(fig, use_container_width=True)
-                    comment = "Some comment"
+                        fig.update_traces(
+                            textinfo='percent+label',
+                            hoverinfo='label+percent',
+                            textfont_size=12,
+                            textposition='outside',
+                        )
 
-                    weight_change_diff = (value_counts - value_counts_prev
+                        fig.update_layout(
+                            showlegend=True,
+                            legend_title_text='ICB Industry Name',
+                            legend=dict(orientation='h',
+                                        yanchor='middle',
+                                        xanchor='left',
+                                        x=1.8,
+                                        y=0.6),
+                        )
+
+                        st.plotly_chart(fig, use_container_width=True)
+
+                        weight_change_diff = (value_counts - value_counts_prev
                                               ) / int(number_selected[-3:])
-                    colors = [
-                        'red' if diff < 0 else 'green'
-                        for diff in weight_change_diff
-                    ]
+                        colors = [
+                            'red' if diff < 0 else 'green'
+                            for diff in weight_change_diff
+                        ]
 
-                    # Create a bar chart using Plotly Express
-                    fig_bar = px.bar(
-                        x=weight_change_diff.index,
-                        y=weight_change_diff,
-                        title=
-                        'Sector Weight Change (Current Month - Previous Month)',
-                        labels={
-                            'y': 'Weight Change',
-                            'x': 'Sector'
-                        },
-                        template='plotly',
-                        color=colors,
-                        text=(weight_change_diff *
-                              100).round(1).astype(str) + '%',
-                    )
+                        # Create a bar chart using Plotly Express
+                        fig_bar = px.bar(
+                            x=weight_change_diff.index,
+                            y=weight_change_diff,
+                            title=
+                            'Sector Weight Change (Current Month - Previous Month)',
+                            labels={
+                                'y': 'Weight Change',
+                                'x': 'Sector'
+                            },
+                            template='plotly',
+                            color=colors,
+                            text=(weight_change_diff *
+                                  100).round(1).astype(str) + '%',
+                        )
 
-                    # Update layout and show the legend
-                    fig_bar.update_layout(
-                        showlegend=False,
-                        legend_title_text='ICB Industry Name',
-                        legend=dict(orientation='h',
-                                    yanchor='middle',
-                                    xanchor='left',
-                                    x=1.8,
-                                    y=1.0),
-                        xaxis_title='ICB Industry Name',
-                        yaxis_title='Weight Change',
-                        xaxis=dict(tickangle=90))
+                        # Update layout and show the legend
+                        fig_bar.update_layout(
+                            showlegend=False,
+                            legend_title_text='ICB Industry Name',
+                            legend=dict(orientation='h',
+                                        yanchor='middle',
+                                        xanchor='left',
+                                        x=1.8,
+                                        y=1.0),
+                            xaxis_title='ICB Industry Name',
+                            yaxis_title='Weight Change',
+                            xaxis=dict(tickangle=90))
 
-                    # Show the bar chart
-                    st.plotly_chart(fig_bar, use_container_width=True)
+                        # Show the bar chart
+                        st.plotly_chart(fig_bar, use_container_width=True)
 
     with right_column:
         st_lottie(lottie_stock, height=300, key="stock")
