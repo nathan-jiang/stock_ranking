@@ -152,6 +152,7 @@ with st.container():
                     response = requests.get(
                         f'{base_url}{year_selected}{months_dict[month_selected]}.csv'
                     )
+                    month_selected = col1.selectbox("Select Month:", months)
                     if month_selected == 'January':
                         response_prev = requests.get(
                             f'{base_url}{year_selected-1}' + '12.csv')
