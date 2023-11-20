@@ -9,6 +9,7 @@ import pandas as pd
 import calendar
 import io
 import seaborn as sns
+import plotly.express as px
 
 sns.set()
 import matplotlib.pyplot as plt
@@ -151,24 +152,32 @@ with st.container():
                     value_counts = df['ICB Industry name'][:int(
                         number_selected[-3:])].value_counts()
                     empty_labels = [''] * len(value_counts)
-                    fig, ax = plt.subplots()
-                    plt.figure(figsize=(8,
-                                        8))  # Set the figure size (optional)
-                    pie = ax.pie(value_counts,
-                                 labels=empty_labels,
-                                 autopct='%1.0f%%',
-                                 textprops={
-                                     'fontsize': 12,
-                                     'color': 'black'
-                                 },
-                                 startangle=90)
-                    ax.axis('equal')
-                    ax.legend(pie[0],
-                              value_counts.index,
-                              title='Sector Breakdown (%s)' % number_selected,
-                              loc="center left",
-                              bbox_to_anchor=(1, 0, 0.5, 1))
-                    st.pyplot(fig)
+                    
+                    fig = px.pie(names=value_counts.index,
+                                 values=value_counts,
+                                 title='Sector Breakdown (%s)' %
+                                 number_selected,
+                                 template='plotly',
+                                 hole=0.4)
+
+                    fig.update_traces(
+                        textinfo='percent+label',
+                        hoverinfo='label+percent',
+                        textfont_size=12,
+                        textposition='outside',
+                    )
+
+                    fig.update_layout(
+                        showlegend=True,
+                        legend_title_text='ICB Industry Name',
+                        legend=dict(orientation='h',
+                                    yanchor='middle',
+                                    xanchor='left',
+                                    x=1.8,
+                                    y=0.6),
+                    )
+
+                    st.plotly_chart(fig, use_container_width=True)
                     comment = "Some comment"
 
     with right_column:
