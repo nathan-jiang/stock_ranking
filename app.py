@@ -152,7 +152,6 @@ with st.container():
                     response = requests.get(
                         f'{base_url}{year_selected}{months_dict[month_selected]}.csv'
                     )
-                    month_selected = col1.selectbox("Select Month:", months)
                     if month_selected == 'January':
                         response_prev = requests.get(
                             f'{base_url}{year_selected-1}' + '12.csv')
@@ -160,7 +159,7 @@ with st.container():
                         response_prev = requests.get(
                             f'{base_url}{year_selected}' +
                             str(int(months_dict[month_selected]) - 1) + '.csv')
-                    if response.status_code == 200:
+                    if response.status_code == 200 and response_prev.status_code == 200:
                         csv_content = io.BytesIO(response.content)
                         df = pd.read_csv(csv_content)
                         df.set_index(df.columns[0], inplace=True)
@@ -173,12 +172,11 @@ with st.container():
                         value_counts_prev = df_prev['ICB Industry name'][:int(
                             number_selected[-3:])].value_counts()
 
-                        #empty_labels = [''] * len(value_counts)
-
                         fig = px.pie(names=value_counts.index,
                                      values=value_counts,
                                      title='Sector Breakdown (%s)' %
                                      number_selected,
+                                     labels={'label': sectors},
                                      template='plotly',
                                      hole=0.4)
 
