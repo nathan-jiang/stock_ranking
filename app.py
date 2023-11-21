@@ -87,13 +87,7 @@ with st.container():
                    "pie-chart-fill"],  #https://icons.getbootstrap.com/
             orientation="horizontal",
         )
-        if month_selected == 'January':
-                        response_prev = requests.get(
-                            f'{base_url}{year_selected-1}' + '12.csv')
-        else:
-            response_prev = requests.get(
-                f'{base_url}{year_selected}' +
-                str(int(months_dict[month_selected]) - 1) + '.csv')
+        
         if selected == "Ranking Generator":
             st.header("Ranking Generator")
             # ---- INPUT & SAVE PERIODS ----
