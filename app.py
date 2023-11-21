@@ -146,13 +146,15 @@ with st.container():
                     response = requests.get(
                         f'{base_url}{year_selected}{months_dict[month_selected]}.csv'
                     )
+                    month_str = months_dict[month_selected]
+                    month_int = int(month_str) - 1
+                    formatted_month = f'{month_int:02d}'
                     if month_selected == 'January':
                         response_prev = requests.get(
                             f'{base_url}{year_selected-1}' + '12.csv')
-                    elif month_selected != 'January':
+                    else:
                         response_prev = requests.get(
-                            f'{base_url}{year_selected}' +
-                            str(int(months_dict[month_selected]) - 1) + '.csv')
+                            f'{base_url}{year_selected}{formatted_month}.csv')
                     if response.status_code == 200 and response_prev.status_code == 200:
                         csv_content = io.BytesIO(response.content)
                         df = pd.read_csv(csv_content)
