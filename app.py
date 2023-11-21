@@ -149,7 +149,7 @@ with st.container():
                     if month_selected == 'January':
                         response_prev = requests.get(
                             f'{base_url}{year_selected-1}' + '12.csv')
-                    else:
+                    elif month_selected != 'January':
                         response_prev = requests.get(
                             f'{base_url}{year_selected}' +
                             str(int(months_dict[month_selected]) - 1) + '.csv')
