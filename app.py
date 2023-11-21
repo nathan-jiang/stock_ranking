@@ -98,6 +98,7 @@ with st.container():
             st.header("Ranking Generator")
             # ---- INPUT & SAVE PERIODS ----
             with st.form("entry_form", clear_on_submit=True):
+                month_selected = 'January'
                 col1, col2, col3 = st.columns(3)
                 month_selected = col1.selectbox("Select Month:", months)
                 year_selected = col2.selectbox("Select Year:", years)
