@@ -58,7 +58,7 @@ years = [
     datetime.date.today().year - 2,
     datetime.date.today().year - 3
 ]
-end = datetime.date(2023, 12, 15)
+end = datetime.date(2024, 2, 15)
 start = datetime.date(2020, 4, 1)
 dates = pd.date_range(start, end, freq='BMS')
 dates = dates.strftime('%Y%m')
