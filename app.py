@@ -45,7 +45,7 @@ with st.container():
     st.subheader("Stock Ranking with Combinatorial Fusion")
     st.title("A Comprehensive Ranking Algo on US Stocks")
     st.write(
-        "This ranking algorithm aims at ranking all the US stocks with a market cap of over $250 millions on a monthly basis for the period of April 2020 - February 2024. A fixed pool of machine learning base models are employed, and their predictions are further optimized and enhanced through model fusion technique called 'Combinatorial Fusion Analysis', a generative AI framework for pre-training, generating, evaluating, and optimizing diverse models."
+        "This ranking algorithm aims at ranking all the US stocks with a market cap of over $250 millions on a monthly basis for the period of April 2020 - April 2024. A fixed pool of machine learning base models are employed, and their predictions are further optimized and enhanced through model fusion technique called 'Combinatorial Fusion Analysis', a generative AI framework for pre-training, generating, evaluating, and optimizing diverse models."
     )
     st.write(
         "[Find more on Github>](https://github.com/nathan-jiang/Equity-Ranking-with-SD-and-CFA)"
@@ -58,7 +58,7 @@ years = [
     datetime.date.today().year - 2,
     datetime.date.today().year - 3
 ]
-end = datetime.date(2024, 2, 15)
+end = datetime.date(2024, 4, 15)
 start = datetime.date(2020, 4, 1)
 dates = pd.date_range(start, end, freq='BMS')
 dates = dates.strftime('%Y%m')
