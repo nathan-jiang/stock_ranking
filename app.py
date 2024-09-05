@@ -83,9 +83,9 @@ def ranking_generator(result_placeholder, years, months, sectors, months_dict, b
                 if df is not None:
                     df.set_index(df.columns[0], inplace=True)
                     if sector_selected == "All":
-                        result_placeholder.dataframe(df)
+                        result_placeholder.dataframe(df, use_container_width=True)
                     else:
-                        result_placeholder.dataframe(df[df['ICB Industry name'] == sector_selected])
+                        result_placeholder.dataframe(df[df['ICB Industry name'] == sector_selected], use_container_width=True)
                 else:
                     st.error("Failed to load data")
                     
