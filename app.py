@@ -239,9 +239,7 @@ with st.container():
 
                         # Show the bar chart
                         st.plotly_chart(fig_bar, use_container_width=True)
-                      
-                        if st.button("Clear Results"):
-                            result_placeholder.empty()
+
 
     with right_column:
         st_lottie(lottie_stock, height=300, key="stock")
@@ -266,6 +264,4 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
-      
-if st.button("Clear Results"):
-    result_placeholder.empty()
+
