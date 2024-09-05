@@ -119,6 +119,27 @@ def data_visualization(years, months, no_of_stocks, months_dict, base_url):
 
                     st.plotly_chart(fig, use_container_width=True)
 
+# ---- CONTACT ----
+with st.container():
+    st.write("---")
+    st.header("Get In Touch With Me!")
+    st.write("##")
+
+    contact_form = """
+    <form action="https://formsubmit.co/njiang3@fordham.edu" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="You email" required>
+        <textarea name="message" placeholder="Your message here" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    """
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.markdown(contact_form, unsafe_allow_html=True)
+    with right_column:
+        st.empty()
+
 # ---- MAIN APP ----
 def main():
     header_section()
@@ -142,25 +163,3 @@ def main():
 # Run the app
 if __name__ == "__main__":
     main()
-
-# ---- CONTACT ----
-with st.container():
-    st.write("---")
-    st.header("Get In Touch With Me!")
-    st.write("##")
-
-    contact_form = """
-    <form action="https://formsubmit.co/njiang3@fordham.edu" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="text" name="name" placeholder="Your name" required>
-        <input type="email" name="email" placeholder="You email" required>
-        <textarea name="message" placeholder="Your message here" required></textarea>
-        <button type="submit">Send</button>
-    </form>
-    """
-    left_column, right_column = st.columns(2)
-    with left_column:
-        st.markdown(contact_form, unsafe_allow_html=True)
-    with right_column:
-        st.empty()
-
