@@ -50,6 +50,7 @@ with st.container():
     st.write(
         "[Find more on Github>](https://github.com/nathan-jiang/Equity-Ranking-with-SD-and-CFA)"
     )
+result_placeholder = st.empty()
 
 # ---- SETTINGS ----
 years = [
@@ -98,6 +99,7 @@ with st.container():
                 sector_selected = col3.selectbox("Select Sector:", sectors)
                 submitted = st.form_submit_button("Submit")
                 if submitted:
+                    result_placeholder.write("Fetching and processing data...")
                     st.write(
                         f"Ranking for {month_selected}, {year_selected}, {sector_selected}"
                     )
@@ -109,19 +111,23 @@ with st.container():
                             csv_content = io.BytesIO(response.content)
                             df = pd.read_csv(csv_content)
                             df.set_index(df.columns[0], inplace=True)
-                            df = st.dataframe(df)
+                            result_placeholder.dataframe(df)
+                            # df = st.dataframe(df)
                     else:
                         if response.status_code == 200:
                             csv_content = io.BytesIO(response.content)
                             df = pd.read_csv(csv_content)
                             df.set_index(df.columns[0], inplace=True)
-                            df = st.dataframe(
-                                df[df['ICB Industry name'] == sector_selected])
-                "---"
+                            result_placeholder.dataframe(df[df['ICB Industry name'] == sector_selected])
+                            # df = st.dataframe(df[df['ICB Industry name'] == sector_selected])
+                    # Clear Results button
+                    if st.button("Clear Results"):
+                        result_placeholder.empty() 
+                st.write("---")
                 with st.expander("Comment"):
                     comment = st.text_area(
                         "", placeholder="Enter a comment here ...")
-                "---"
+                st.write("---")
                 submitted = st.form_submit_button("Save Data")
                 if submitted:
                     period = str(st.session_state["year"]) + "_" + str(
@@ -233,6 +239,8 @@ with st.container():
 
                         # Show the bar chart
                         st.plotly_chart(fig_bar, use_container_width=True)
+                  if st.button("Clear Results"):
+                    result_placeholder.empty()
 
     with right_column:
         st_lottie(lottie_stock, height=300, key="stock")
@@ -257,3 +265,6 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
+      
+if st.button("Clear Results"):
+    result_placeholder.empty()
