@@ -8,6 +8,7 @@ from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 import calendar
 
+st.write('#')
 # Streamlit page config
 st.set_page_config(page_title="Ranking Algo on Stocks",
                    page_icon=":tada:",
